@@ -206,56 +206,57 @@
                 <div class="admission-form">
                     <h2>فرم پذیرش</h2>
                     <hr>
-                    <form>
+                    <form method="post">
+                        {% csrf_token %}
                         <div>
                             <h4 style="font-size: 14px; ">مشخصات نوآموز</h4>
                             <div class="form-row">
                                 <div class="form-group col-md-6">
                                     <label> نام و نام خانوادگی</label>
-                                    <input type="text" class="form-control" id="inputEmail14" />
+                                    <input type="text" name="name" class="form-control" id="inputEmail14" />
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label>نام پدر</label>
-                                    <input type="text" class="form-control" id="inputEmail15" />
+                                    <input type="text" name="father_name" class="form-control" id="inputEmail15" />
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label> محل تولد</label>
-                                    <input type="text" class="form-control" id="inputEmail15" />
+                                    <input type="text" name="birthdayplace" class="form-control" id="inputEmail15" />
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label>محل صدور </label>
-                                    <input type="text" class="form-control" id="inputEmail15" />
+                                    <input type="text" name="createcardplace" class="form-control" id="inputEmail15" />
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label>کد ملی</label>
-                                    <input type="text" class="form-control" id="inputEmail16" />
+                                    <input type="text" name="nin" class="form-control" id="inputEmail16" />
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label> سریال و سری شناسنامه</label>
-                                    <input type="text" class="form-control" id="inputEmail16" />
+                                    <input type="text" name="serialcard" class="form-control" id="inputEmail16" />
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label>تلفن منزل</label>
-                                    <input type="text" class="form-control" id="inputEmail17" />
+                                    <input type="text" name="homephone" class="form-control" id="inputEmail17" />
                                 </div>
                                 <div class="form-group col-md-6" id="date4">
                                     <label>تاریخ تولد</label>
-                                    <input type="text" max="1398-02-01" class="form-control" id="inputDate4" placeholder="روز / ماه / سال" />
+                                    <input type="text" name="birthday" max="1398-02-01" class="form-control" id="inputDate4" placeholder="روز / ماه / سال" />
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <label for="inputAddress2">آدرس</label>
-                                <input type="text" class="form-control" id="inputAddress2" />
+                                <input type="text" name="address" class="form-control" id="inputAddress2" />
                             </div>
                             <div class="form-row">
                                 <div class="form-group col-md-6">
                                     <label for="inputCity">شهر</label>
-                                    <input type="text" class="form-control" id="inputCity" />
+                                    <input type="text" name="city" class="form-control" id="inputCity" />
                                 </div>
                                 <div class="form-group col-md-4">
                                     <label for="inputState">استان</label>
-                                    <select id="inputState" class="form-control">
+                                    <select id="inputState" name="province" class="form-control">
                                         <option selected>تهران </option>
                                         <option>خوزستان </option>
                                         <option>اصفهان </option>
@@ -265,7 +266,7 @@
                                 </div>
                                 <div class="form-group col-md-2">
                                     <label for="inputZip">کد پستی</label>
-                                    <input type="text" class="form-control" id="inputZip" />
+                                    <input type="text" name="homecode" class="form-control" id="inputZip" />
                                 </div>
                             </div>
                         </div>
@@ -275,35 +276,39 @@
                             <div class="form-row">
                                 <div class="form-group col-md-6">
                                     <label>نام و نام خانوادگی</label>
-                                    <input type="text" class="form-control" id="inputEmail14" />
+                                    <input type="text" name="fathername" class="form-control" id="inputEmail14" />
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label>نام پدر</label>
-                                    <input type="text" class="form-control" id="inputEmail15" />
+                                    <input type="text" name="fatherfathername" class="form-control" id="inputEmail15" />
                                 </div>
-                                <div class="form-group col-md-6">
-                                    <label> شماره شناسنامه</label>
-                                    <input type="text" class="form-control" id="inputEmail15" />
-                                </div>
+{#                                <div class="form-group col-md-6">#}
+{#                                    <label> شماره شناسنامه</label>#}
+{#                                    <input type="text"  class="form-control" id="inputEmail15" />#}
+{#                                </div>#}
                                 <div class="form-group col-md-6">
                                     <label> کد ملی</label>
-                                    <input type="text" class="form-control" id="inputEmail15" />
+                                    <input type="text" name="fathernin" class="form-control" id="inputEmail15" />
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label> سریال و سری شناسنامه</label>
-                                    <input type="text" class="form-control" id="inputEmail15" />
+                                    <input type="text" name="fatherserial" class="form-control" id="inputEmail15" />
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label> میزان تحصیلات</label>
-                                    <input type="text" class="form-control" id="inputEmail15" />
+                                    <input type="text" name="fathereducation" class="form-control" id="inputEmail15" />
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label> شغل پدر</label>
+                                    <input type="text" name="fatherwork" class="form-control" id="inputEmail15" />
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label>موبایل</label>
-                                    <input type="text" class="form-control" id="inputEmail17" />
+                                    <input type="text" name="fatherphone" class="form-control" id="inputEmail17" />
                                 </div>
                                 <div class="form-group col-md-6" id="date5">
                                     <label>تاریخ تولد</label>
-                                    <input type="text" max="1398-02-01" class="form-control" id="inputDate5" placeholder="روز / ماه / سال" />
+                                    <input type="text" name="fatherbirth" max="1398-02-01" class="form-control" id="inputDate5" placeholder="روز / ماه / سال" />
                                 </div>
                             </div>
                         </div>
@@ -313,35 +318,43 @@
                             <div class="form-row">
                                 <div class="form-group col-md-6">
                                     <label>نام و نام خانوادگی</label>
-                                    <input type="text" class="form-control" id="inputEmail14" />
+                                    <input type="text" name="mothername" class="form-control" id="inputEmail14" />
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label>نام پدر</label>
-                                    <input type="text" class="form-control" id="inputEmail15" />
+                                    <input type="text" name="motherfathername" class="form-control" id="inputEmail15" />
                                 </div>
-                                <div class="form-group col-md-6">
-                                    <label> شماره شناسنامه</label>
-                                    <input type="text" class="form-control" id="inputEmail15" />
-                                </div>
+{#                                <div class="form-group col-md-6">#}
+{#                                    <label> شماره شناسنامه</label>#}
+{#                                    <input type="text" class="form-control" id="inputEmail15" />#}
+{#                                </div>#}
                                 <div class="form-group col-md-6">
                                     <label> کد ملی</label>
-                                    <input type="text" class="form-control" id="inputEmail15" />
+                                    <input type="text" name="mothernin" class="form-control" id="inputEmail15" />
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label> سریال و سری شناسنامه</label>
-                                    <input type="text" class="form-control" id="inputEmail15" />
+                                    <input type="text" name="notherserial" class="form-control" id="inputEmail15" />
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label> میزان تحصیلات</label>
-                                    <input type="text" class="form-control" id="inputEmail15" />
+                                    <input type="text" name="mothereducation" class="form-control" id="inputEmail15" />
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label> شغل مادر</label>
+                                    <input type="text" name="motherwork" class="form-control" id="inputEmail15" />
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label>موبایل</label>
-                                    <input type="text" class="form-control" id="inputEmail17" />
+                                    <input type="text" name="motherphone" class="form-control" id="inputEmail17" />
+                                </div>
+                                 <div class="form-group col-md-6">
+                                    <label>موبایل دارای تلگرام</label>
+                                    <input type="text" name="telegramphone" class="form-control" id="inputEmail17" />
                                 </div>
                                 <div class="form-group col-md-6" id="date5">
                                     <label>تاریخ تولد</label>
-                                    <input type="text" max="1398-02-01" class="form-control" id="inputDate5" placeholder="روز / ماه / سال" />
+                                    <input type="text" name="motherbirth" max="1398-02-01" class="form-control" id="inputDate5" placeholder="روز / ماه / سال" />
                                 </div>
                             </div>
                         </div>
@@ -353,7 +366,7 @@
                   </label>
                             </div>
                         </div>
-                        <a href="#" class="box-btn">ثبت نام</a>
+                        <input href="" type="submit" value="ثبت نام" class="box-btn"/>
                     </form>
                 </div>
             </div>
