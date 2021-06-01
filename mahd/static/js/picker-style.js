@@ -74,3 +74,21 @@
             fromDate: true,
             groupId: 'date6-7-range'
         });
+        $('#date10').MdPersianDateTimePicker({
+            targetTextSelector: '#inputDate10',
+            toDate: true,
+            groupId: 'rangeSelector1',
+            placement: 'top',
+            enableTimePicker: true,
+            dateFormat: 'yyyy-MM-dd HH:mm:ss',
+            textFormat: 'yyyy-MM-dd',
+        });
+        $('#date11').MdPersianDateTimePicker({
+            targetTextSelector: '#inputDate11',
+            toDate: true,
+            groupId: 'rangeSelector1',
+            placement: 'top',
+            enableTimePicker: true,
+            dateFormat: 'yyyy-MM-dd HH:mm:ss',
+            textFormat: 'yyyy-MM-dd',
+        });

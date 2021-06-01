@@ -1,6 +1,8 @@
 from django.shortcuts import render,redirect
 from .models import Userprofile
 from django.contrib import messages
+def home(request):
+    return render(request,'index.html')
 
 def SignUp(request):
     if request.method == 'POST':
@@ -41,7 +43,7 @@ def SignUp(request):
                                    mother_serial_card=mother_serial_card,mother_education=mother_education,mother_phone=mother_phone,mother_work=mother_work,
                                    mother_birth=mother_birth,telegram_phone=telegram_phone)
         messages.success(request,{'اطلاعات شما با موفقیت ثبت شد .'})
-        return render(request,'index.html')
+        return render(request,'success.html')
 
     else:
         pass

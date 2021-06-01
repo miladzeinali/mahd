@@ -65,104 +65,9 @@
         <div class="main-nav">
             <div class="container">
                 <nav class="navbar navbar-expand-md navbar-light">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="{% url 'web:home' %}">
                         <img src="{% static 'images/logo1.png' %}" alt="logo" />
                     </a>
-                    <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
-                        <ul class="navbar-nav text-right">
-                            <li class="nav-item">
-                                <a href="index.html" class="nav-link">خانه</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="about.html" class="nav-link">درباره ما</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link dropdown-toggle">کلاس ها</a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item">
-                                        <a href="classes.html" class="nav-link">کلاس ها</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="special-class.html" class="nav-link">دوره های ویژه</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="single-class.html" class="nav-link">جزئیات دوره ها</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link dropdown-toggle">رویدادها</a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item">
-                                        <a href="events.html" class="nav-link">رویدادها</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="single-events.html" class="nav-link">جزئیات رویدادها</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link dropdown-toggle">اخبار</a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item">
-                                        <a href="news.html" class="nav-link">اخبار وبلاگ</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="single-news.html" class="nav-link">جزئیات اخبار</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link dropdown-toggle">مربیان</a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item">
-                                        <a href="teachers.html" class="nav-link">مربی ها</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="single-teacher.html" class="nav-link">جزئیات مربیان</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link dropdown-toggle active">صفحات</a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item">
-                                        <a href="admission.html" class="nav-link active">پذیرش</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="pricing.html" class="nav-link">قیمت ها</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="gallery.html" class="nav-link">گالری</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="testimonials.html" class="nav-link">مشتریان</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="signup.html" class="nav-link">عضویت</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="signin.html" class="nav-link">ورود</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="404.html" class="nav-link">خطای 404</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="faq.html" class="nav-link">سوالات متداول</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="terms&condition.html" class="nav-link">قوانین و ضوابط</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="privecy.html" class="nav-link">حریم خصوصی</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a href="contact.html" class="nav-link">تماس با ما </a>
-                            </li>
-                        </ul>
-                    </div>
                 </nav>
             </div>
         </div>
@@ -178,7 +83,7 @@
                         <h2>پذیرش</h2>
                         <ul>
                             <li>
-                                <a href="index.html"> صفحه اصلی </a>
+                                <a href="{% url 'web:home' %}"> صفحه اصلی </a>
                                 <i class="flaticon-left-arrow"></i>
                                 <p class="active">پذیرش</p>
                             </li>
@@ -206,57 +111,57 @@
                 <div class="admission-form">
                     <h2>فرم پذیرش</h2>
                     <hr>
-                    <form method="post">
+                    <form method="post" action="{% url 'web:signup' %}">
                         {% csrf_token %}
                         <div>
                             <h4 style="font-size: 14px; ">مشخصات نوآموز</h4>
                             <div class="form-row">
                                 <div class="form-group col-md-6">
                                     <label> نام و نام خانوادگی</label>
-                                    <input type="text" name="name" class="form-control" id="inputEmail14" />
+                                    <input type="text" name="name" class="form-control" id="inputEmail14" required />
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label>نام پدر</label>
-                                    <input type="text" name="father_name" class="form-control" id="inputEmail15" />
+                                    <input type="text" name="father_name" class="form-control" id="inputEmail15" required />
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label> محل تولد</label>
-                                    <input type="text" name="birthdayplace" class="form-control" id="inputEmail15" />
+                                    <input type="text" name="birthdayplace" class="form-control" id="inputEmail16" required />
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label>محل صدور </label>
-                                    <input type="text" name="createcardplace" class="form-control" id="inputEmail15" />
+                                    <input type="text" name="createcardplace" class="form-control" id="inputEmail17" required />
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label>کد ملی</label>
-                                    <input type="text" name="nin" class="form-control" id="inputEmail16" />
+                                    <input type="text" name="nin" class="form-control" id="inputEmail18" required/>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label> سریال و سری شناسنامه</label>
-                                    <input type="text" name="serialcard" class="form-control" id="inputEmail16" />
+                                    <input type="text" name="serialcard" class="form-control" id="inputEmail19" required />
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label>تلفن منزل</label>
-                                    <input type="text" name="homephone" class="form-control" id="inputEmail17" />
+                                    <input type="text" name="homephone" class="form-control" id="inputEmail20" required/>
                                 </div>
-                                <div class="form-group col-md-6" id="date4">
+                                <div class="form-group col-md-6" id="date10">
                                     <label>تاریخ تولد</label>
-                                    <input type="text" name="birthday" max="1398-02-01" class="form-control" id="inputDate4" placeholder="روز / ماه / سال" />
+                                    <input type="text" name="birthday" max="1398-02-01" class="form-control" id="inputDate10" placeholder="روز / ماه / سال" required />
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <label for="inputAddress2">آدرس</label>
-                                <input type="text" name="address" class="form-control" id="inputAddress2" />
+                                <input type="text" name="address" class="form-control" id="inputAddress2" required/>
                             </div>
                             <div class="form-row">
-                                <div class="form-group col-md-6">
+                                <div class="form-group col-md-4">
                                     <label for="inputCity">شهر</label>
-                                    <input type="text" name="city" class="form-control" id="inputCity" />
+                                    <input type="text" name="city" class="form-control" id="inputCity" required />
                                 </div>
                                 <div class="form-group col-md-4">
                                     <label for="inputState">استان</label>
-                                    <select id="inputState" name="province" class="form-control">
+                                    <select id="inputState" name="province" class="form-control" required>
                                         <option selected>تهران </option>
                                         <option>خوزستان </option>
                                         <option>اصفهان </option>
@@ -264,9 +169,9 @@
                                         <option>البرز </option>
                                      </select>
                                 </div>
-                                <div class="form-group col-md-2">
+                                <div class="form-group col-md-4">
                                     <label for="inputZip">کد پستی</label>
-                                    <input type="text" name="homecode" class="form-control" id="inputZip" />
+                                    <input type="text" name="homecode" class="form-control" id="inputZip" required/>
                                 </div>
                             </div>
                         </div>
@@ -276,11 +181,11 @@
                             <div class="form-row">
                                 <div class="form-group col-md-6">
                                     <label>نام و نام خانوادگی</label>
-                                    <input type="text" name="fathername" class="form-control" id="inputEmail14" />
+                                    <input type="text" name="fathername" class="form-control" id="inputEmail22" required/>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label>نام پدر</label>
-                                    <input type="text" name="fatherfathername" class="form-control" id="inputEmail15" />
+                                    <input type="text" name="fatherfathername" class="form-control" id="inputEmail23" required/>
                                 </div>
 {#                                <div class="form-group col-md-6">#}
 {#                                    <label> شماره شناسنامه</label>#}
@@ -288,27 +193,27 @@
 {#                                </div>#}
                                 <div class="form-group col-md-6">
                                     <label> کد ملی</label>
-                                    <input type="text" name="fathernin" class="form-control" id="inputEmail15" />
+                                    <input type="text" name="fathernin" class="form-control" id="inputEmail24" required />
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label> سریال و سری شناسنامه</label>
-                                    <input type="text" name="fatherserial" class="form-control" id="inputEmail15" />
+                                    <input type="text" name="fatherserial" class="form-control" id="inputEmail25" required/>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label> میزان تحصیلات</label>
-                                    <input type="text" name="fathereducation" class="form-control" id="inputEmail15" />
+                                    <input type="text" name="fathereducation" class="form-control" id="inputEmail26" required/>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label> شغل پدر</label>
-                                    <input type="text" name="fatherwork" class="form-control" id="inputEmail15" />
+                                    <input type="text" name="fatherwork" class="form-control" id="inputEmail27" required/>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label>موبایل</label>
-                                    <input type="text" name="fatherphone" class="form-control" id="inputEmail17" />
+                                    <input type="text" name="fatherphone" class="form-control" id="inputEmail28" required/>
                                 </div>
                                 <div class="form-group col-md-6" id="date5">
                                     <label>تاریخ تولد</label>
-                                    <input type="text" name="fatherbirth" max="1398-02-01" class="form-control" id="inputDate5" placeholder="روز / ماه / سال" />
+                                    <input type="text" name="fatherbirth" max="1398-02-01" class="form-control" id="inputDate5" placeholder="روز / ماه / سال"  required/>
                                 </div>
                             </div>
                         </div>
@@ -318,11 +223,11 @@
                             <div class="form-row">
                                 <div class="form-group col-md-6">
                                     <label>نام و نام خانوادگی</label>
-                                    <input type="text" name="mothername" class="form-control" id="inputEmail14" />
+                                    <input type="text" name="mothername" class="form-control" id="inputEmail29" required/>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label>نام پدر</label>
-                                    <input type="text" name="motherfathername" class="form-control" id="inputEmail15" />
+                                    <input type="text" name="motherfathername" class="form-control" id="inputEmail30" required/>
                                 </div>
 {#                                <div class="form-group col-md-6">#}
 {#                                    <label> شماره شناسنامه</label>#}
@@ -330,37 +235,37 @@
 {#                                </div>#}
                                 <div class="form-group col-md-6">
                                     <label> کد ملی</label>
-                                    <input type="text" name="mothernin" class="form-control" id="inputEmail15" />
+                                    <input type="text" name="mothernin" class="form-control" id="inputEmail31" required/>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label> سریال و سری شناسنامه</label>
-                                    <input type="text" name="notherserial" class="form-control" id="inputEmail15" />
+                                    <input type="text" name="notherserial" class="form-control" id="inputEmail32" required/>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label> میزان تحصیلات</label>
-                                    <input type="text" name="mothereducation" class="form-control" id="inputEmail15" />
+                                    <input type="text" name="mothereducation" class="form-control" id="inputEmail33" required/>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label> شغل مادر</label>
-                                    <input type="text" name="motherwork" class="form-control" id="inputEmail15" />
+                                    <input type="text" name="motherwork" class="form-control" id="inputEmail34" required/>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label>موبایل</label>
-                                    <input type="text" name="motherphone" class="form-control" id="inputEmail17" />
+                                    <input type="text" name="motherphone" class="form-control" id="inputEmail35" required/>
                                 </div>
                                  <div class="form-group col-md-6">
                                     <label>موبایل دارای تلگرام</label>
-                                    <input type="text" name="telegramphone" class="form-control" id="inputEmail17" />
+                                    <input type="text" name="telegramphone" class="form-control" id="inputEmail36" required/>
                                 </div>
-                                <div class="form-group col-md-6" id="date5">
+                                <div class="form-group col-md-6" id="date11">
                                     <label>تاریخ تولد</label>
-                                    <input type="text" name="motherbirth" max="1398-02-01" class="form-control" id="inputDate5" placeholder="روز / ماه / سال" />
+                                    <input type="text" name="motherbirth" max="1398-02-01" class="form-control" required id="inputDate11" placeholder="روز / ماه / سال" />
                                 </div>
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="gridCheck" />
+                                <input class="form-check-input" type="checkbox" id="gridCheck" required/>
                                 <label class="form-check-label" for="gridCheck">
                     با همه شرایط و قوانین موافق هستم.
                   </label>
@@ -375,76 +280,13 @@
 
     <!-- End Terms & Conditions -->
 
-    <!-- Contact Area -->
-    <section class="home-contact-area pb-100">
-        <div class="container-fluid">
-            <div class="row align-items-center">
-                <div class="col-lg-6 pr-0">
-                    <div class="contact-img">
-                        <img src="{% static 'images/contact.png' %}" alt="contact" />
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="home-contact-content">
-                        <h2>با ما تماس بگیرید</h2>
-                        <form id="contactForm">
-                            <div class="row">
-                                <div class="col-lg-6 col-sm-6">
-                                    <div class="form-group">
-                                        <input type="text" name="name" id="name" class="form-control" required data-error="نام خود را وارد کنید" placeholder="نام شما" />
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
 
-                                <div class="col-lg-6 col-sm-6">
-                                    <div class="form-group">
-                                        <input type="email" name="email" id="email" class="form-control" required data-error="ایمیل خود را وارد کنید" placeholder="ایمیل شما" />
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-6 col-sm-6">
-                                    <div class="form-group">
-                                        <input type="text" name="phone_number" id="phone_number" required data-error="تلفن خود را وارد کنید" class="form-control" placeholder="تلفن شما" />
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-6 col-sm-6">
-                                    <div class="form-group">
-                                        <input type="text" name="msg_subject" id="msg_subject" class="form-control" required data-error="موضوع خود را وارد کنید" placeholder="موضوع شما" />
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-12 col-md-12">
-                                    <div class="form-group">
-                                        <textarea name="message" class="form-control" id="message" cols="30" rows="5" required data-error="پیام خود را بنویسید" placeholder="پیام شما"></textarea>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-12 col-md-12">
-                                    <button type="submit" class="default-btn page-btn box-btn">
-                                                ارسال پیام
-                                     </button>
-                                    <div id="msgSubmit" class="h3 text-center hidden"></div>
-                                    <div class="clearfix"></div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Contact Area -->
 
     <!-- Footer Area -->
     <div class="footer-area">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-6 col-md-6">
                     <div class="footer-left">
                         <a href="index.html" class="logo"><img src="{% static 'images/logo2.png' %}" alt="logo" /></a>
                         <p>
@@ -466,51 +308,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="footer-content fml-25">
-                        <h2>مدرسه</h2>
-                        <ul>
-                            <li>
-                                <a href="#"><i class="flaticon-left-arrow"></i> پشتیبانی</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="flaticon-left-arrow"></i> حرفه</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="flaticon-left-arrow"></i> مربیان</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="flaticon-left-arrow"></i> کارمندان</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="flaticon-left-arrow"></i> تماس با ما</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-6">
-                    <div class="footer-content fml-15">
-                        <h2>لینکهای سریع</h2>
-                        <ul>
-                            <li>
-                                <a href="#"><i class="flaticon-left-arrow"></i> صفحه اصلی</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="flaticon-left-arrow"></i> کلاس ها</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="flaticon-left-arrow"></i> دوره ها</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="flaticon-left-arrow"></i> شرکت ما</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="flaticon-left-arrow"></i> سوالات متداول</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-6 col-md-6">
                     <div class="footer-content fml-15 fml-20">
                         <h2>تماس بگیرید</h2>
                         <ul>
@@ -581,8 +379,8 @@
 
     <!-- persian picker JS -->
     <script src="{% static 'src/jquery.md.bootstrap.datetimepicker.js' %}" type="text/javascript"></script>
-    <!-- <script src="{% static 'dist/jquery.md.bootstrap.datetimepicker.js" type="text/javascript"></script> -->
-    <script src="{% static 'js/picker-style.js" type="text/javascript' %}"></script>
+    <script src="{% static 'dist/jquery.md.bootstrap.datetimepicker.js' %}" type="text/javascript"></script>
+    <script src="{% static 'js/picker-style.js' %}" type="text/javascript"></script>
 
 </body>
 
