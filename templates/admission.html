@@ -181,6 +181,14 @@
                                     <label for="inputZip">کد پستی</label>
                                     <input type="text" name="homecode" class="form-control" id="inputZip" required/>
                                 </div>
+                                 <div class="form-group col-md-4">
+                                    <label for="hand">  دست غالب کودک    </label>
+                                    <select id="hand" name="hand" class="form-control" required>
+                                        <option selected>راست </option>
+                                        <option>چپ </option>
+                                        
+                                     </select>
+                                </div>
                             </div>
                         </div>
                         <hr>
@@ -252,11 +260,11 @@
                                           <div class="form-group col-md-6 row">
                                     <div class="col-5">
                                             <label>   سری شناسنامه</label>
-                                    <input type="text" name="notherseri" class="form-control" id="inputEmail32" required placeholder="د27"/>
+                                    <input type="text" name="motherseri" class="form-control" id="inputEmail32" required placeholder="د27"/>
                                     </div>
                                     <div class="col-7">
                                             <label> سریال  شناسنامه</label>
-                                    <input type="text" name="notherserial" class="form-control" id="inputEmail32" required/>
+                                    <input type="text" name="motherserial" class="form-control" id="inputEmail32" required/>
                                     </div>
 
                                 </div>
@@ -280,6 +288,7 @@
                                     <label>تاریخ تولد</label>
                                     <input type="text" name="motherbirth" max="1398-02-01" class="form-control" required id="inputDate11" placeholder="روز / ماه / سال" />
                                 </div>
+                                <hr>
                                 <div>
                                     <label>متقاضی ثبت نام در کدام مجموعه آموزشی هستید؟</label>
                               <select class="btn-primary" class="btn-block" name="eplace">
@@ -297,6 +306,56 @@
                   </label>
                             </div>
                         </div>
+                        <div class="form-row">
+                           <div class="form-group col-md-4">
+                                    <label for="talagh">آیا والدین متارکه کرده اند؟</label>
+                                    <select id="talagh" name="talagh" class="form-control" required>
+                                        <option selected>خیر </option>
+                                        <option>بله </option>
+                                     </select>
+                                </div>
+                                   <div class="form-group col-md-4">
+                                    <label for="bimeh">آیا بیمه تکمیلی هستید؟</label>
+                                    <select id="bimeh" name="bimeh" class="form-control" required>
+                                        <option selected>خیر </option>
+                                        <option>بله </option>
+                                     </select>
+                                </div>
+                                  <div class="form-group col-md-4">
+                                    <label for="shahid">از خانواده شهدا یا ایثار گر هستید؟ </label>
+                                    <select id="shahid" name="shahid" class="form-control" required>
+                                        <option selected>خیر </option>
+                                        <option>بله </option>
+                                     </select>
+                                </div>
+                                 <div class="form-group col-md-4">
+                                    <label for="farhangi">از خانواده ی فرهنگی هستید؟     </label>
+                                    <select id="farhangi" name="farhangi" class="form-control" required>
+                                        <option selected>خیر </option>
+                                        <option>بله </option>
+                                     </select>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="children">تعداد فرزندان خانواده؟   </label>
+                                    <select id="children" name="children" class="form-control" required>
+                                        <option selected>1 </option>
+                                        <option>2 </option>
+                                        <option>3 </option>
+                                        <option>4 </option>
+                                        <option>بیشتر </option>
+                                     </select>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="child">  کودک فرزند چندم خانواده است؟   </label>
+                                    <select id="child" name="child" class="form-control" required>
+                                        <option selected>1 </option>
+                                        <option>2 </option>
+                                        <option>3 </option>
+                                        <option>4 </option>
+                                        <option>بیشتر </option>
+                                     </select>
+                                </div>
+                                
                         <input href="" type="submit" value="ثبت نام" class="box-btn"/>
                     </form>
                 </div>

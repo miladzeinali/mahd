@@ -1,393 +1,8 @@
-2021-06-08 08:41:35.991142 [UID:1687][20163] Child process with pid: 20200 was killed by signal: 15, core dump: 0
-2021-06-08 08:41:36.100200 [UID:1687][20163] Child process with pid: 20210 was killed by signal: 15, core dump: 0
-2021-06-08 08:41:37.072537 [UID:1687][20163] Child process with pid: 20547 was killed by signal: 15, core dump: 0
-Traceback (most recent call last):
-  File "/home/bafghmah/mahd/passenger_wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-  File "/home/bafghmah/mahd/mahd/wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-ImportError: cannot import name 'application' from 'mahd.wsgi' (/home/bafghmah/mahd/mahd/wsgi.py)
-2021-06-08 08:41:37.190639 [UID:1687][20549] Child process with pid: 20555 was killed by signal: 15, core dump: 0
-Traceback (most recent call last):
-  File "/home/bafghmah/mahd/passenger_wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-  File "/home/bafghmah/mahd/mahd/wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-ImportError: cannot import name 'application' from 'mahd.wsgi' (/home/bafghmah/mahd/mahd/wsgi.py)
-Not Found: /static/css/bootstrap.min.css
-Not Found: /static/css/flaticon.css
-Not Found: /static/css/owl.carousel.min.css
-Not Found: /static/css/responsive.css
-Traceback (most recent call last):
-  File "/home/bafghmah/mahd/passenger_wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-  File "/home/bafghmah/mahd/mahd/wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-ImportError: cannot import name 'application' from 'mahd.wsgi' (/home/bafghmah/mahd/mahd/wsgi.py)
-Traceback (most recent call last):
-  File "/home/bafghmah/mahd/passenger_wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-  File "/home/bafghmah/mahd/mahd/wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-ImportError: cannot import name 'application' from 'mahd.wsgi' (/home/bafghmah/mahd/mahd/wsgi.py)
-Traceback (most recent call last):
-  File "/home/bafghmah/mahd/passenger_wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-  File "/home/bafghmah/mahd/mahd/wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-ImportError: cannot import name 'application' from 'mahd.wsgi' (/home/bafghmah/mahd/mahd/wsgi.py)
-Traceback (most recent call last):
-  File "/home/bafghmah/mahd/passenger_wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-  File "/home/bafghmah/mahd/mahd/wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-ImportError: cannot import name 'application' from 'mahd.wsgi' (/home/bafghmah/mahd/mahd/wsgi.py)
-Traceback (most recent call last):
-  File "/home/bafghmah/mahd/passenger_wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-  File "/home/bafghmah/mahd/mahd/wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-ImportError: cannot import name 'application' from 'mahd.wsgi' (/home/bafghmah/mahd/mahd/wsgi.py)
-Traceback (most recent call last):
-  File "/home/bafghmah/mahd/passenger_wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-  File "/home/bafghmah/mahd/mahd/wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-ImportError: cannot import name 'application' from 'mahd.wsgi' (/home/bafghmah/mahd/mahd/wsgi.py)
-Not Found: /static/css/meanmenu.css
-Not Found: /static/js/jquery.min.js
-Not Found: /static/css/fontawesome-all.min.css
-Not Found: /static/css/animate.css
-Not Found: /static/js/jquery.meanmenu.js
-Not Found: /static/js/bootstrap.min.js
-Not Found: /static/js/popper.min.js
-Not Found: /static/css/magnific-popup.css
-Not Found: /static/js/jquery.magnific-popup.min.js
-Not Found: /static/js/isotope.pkgd.min.js
-Not Found: /static/js/wow.min.js
-Not Found: /static/js/owl.carousel.min.js
-Not Found: /static/css/style.css
-Not Found: /static/css/rtl.css
-Not Found: /static/js/popper.min.js
-Not Found: /static/js/main.js
-Not Found: /static/js/contact-form-script.js
-Not Found: /static/js/form-validator.min.js
-Not Found: /static/images/shape.png
-Not Found: /static/images/admission/shape1.png
-Not Found: /static/images/admission/shape2.png
-Not Found: /static/images/admission/shape4.png
-Not Found: /static/images/admission/shape5.png
-Not Found: /static/images/admission/shape3.png
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/js/bootstrap.min.js
-Not Found: /static/js/jquery.meanmenu.js
-Not Found: /static/js/jquery.magnific-popup.min.js
-Not Found: /static/js/owl.carousel.min.js
-Not Found: /static/js/wow.min.js
-Not Found: /static/js/isotope.pkgd.min.js
-Not Found: /static/js/form-validator.min.js
-Not Found: /static/js/contact-form-script.js
-Not Found: /static/js/main.js
-Not Found: /static/images/favicon.ico
-Not Found: /static/css/meanmenu.css
-Not Found: /static/css/bootstrap.min.css
-Not Found: /static/css/fontawesome-all.min.css
-Not Found: /static/css/style.css
-Not Found: /static/css/owl.carousel.min.css
-Not Found: /static/css/responsive.css
-Not Found: /static/css/rtl.css
-Traceback (most recent call last):
-  File "/home/bafghmah/mahd/passenger_wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-  File "/home/bafghmah/mahd/mahd/wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-ImportError: cannot import name 'application' from 'mahd.wsgi' (/home/bafghmah/mahd/mahd/wsgi.py)
-Traceback (most recent call last):
-  File "/home/bafghmah/mahd/passenger_wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-  File "/home/bafghmah/mahd/mahd/wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-ImportError: cannot import name 'application' from 'mahd.wsgi' (/home/bafghmah/mahd/mahd/wsgi.py)
-Traceback (most recent call last):
-  File "/home/bafghmah/mahd/passenger_wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-  File "/home/bafghmah/mahd/mahd/wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-ImportError: cannot import name 'application' from 'mahd.wsgi' (/home/bafghmah/mahd/mahd/wsgi.py)
-Not Found: /static/css/flaticon.css
-Not Found: /static/css/bootstrap.min.css
-Not Found: /static/css/animate.css
-Not Found: /static/css/meanmenu.css
-Not Found: /static/css/flaticon.css
-Not Found: /static/css/owl.carousel.min.css
-Not Found: /static/css/style.css
-Not Found: /static/css/magnific-popup.css
-Not Found: /static/css/rtl.css
-Not Found: /static/css/responsive.css
-Not Found: /static/css/fontawesome-all.min.css
-Not Found: /static/js/jquery.min.js
-Not Found: /static/js/popper.min.js
-Not Found: /static/js/jquery.meanmenu.js
-Not Found: /static/js/bootstrap.min.js
-Not Found: /static/js/owl.carousel.min.js
-Not Found: /static/js/jquery.magnific-popup.min.js
-Not Found: /static/js/wow.min.js
-Not Found: /static/js/isotope.pkgd.min.js
-Not Found: /static/js/form-validator.min.js
-Not Found: /static/images/admission/shape1.png
-Traceback (most recent call last):
-  File "/home/bafghmah/mahd/passenger_wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-  File "/home/bafghmah/mahd/mahd/wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-ImportError: cannot import name 'application' from 'mahd.wsgi' (/home/bafghmah/mahd/mahd/wsgi.py)
-Traceback (most recent call last):
-  File "/home/bafghmah/mahd/passenger_wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-  File "/home/bafghmah/mahd/mahd/wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-ImportError: cannot import name 'application' from 'mahd.wsgi' (/home/bafghmah/mahd/mahd/wsgi.py)
-Not Found: /static/images/admission/shape2.png
-Not Found: /static/images/admission/shape3.png
-Not Found: /static/images/admission/shape4.png
-Not Found: /static/css/animate.css
-Not Found: /static/css/magnific-popup.css
-Not Found: /static/images/admission/shape5.png
-Not Found: /static/js/popper.min.js
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/js/bootstrap.min.js
-Not Found: /static/js/jquery.meanmenu.js
-Not Found: /static/js/jquery.magnific-popup.min.js
-Not Found: /static/js/owl.carousel.min.js
-Not Found: /static/js/wow.min.js
-Not Found: /static/js/isotope.pkgd.min.js
-Not Found: /static/js/form-validator.min.js
-Not Found: /static/js/main.js
-Not Found: /static/images/shape.png
-Not Found: /static/js/contact-form-script.js
-Not Found: /static/js/main.js
-Not Found: /static/css/bootstrap.min.css
-Not Found: /static/css/meanmenu.css
-Not Found: /static/css/owl.carousel.min.css
-Not Found: /static/css/fontawesome-all.min.css
-Not Found: /static/css/magnific-popup.css
-Not Found: /static/css/animate.css
-Not Found: /static/css/responsive.css
-Not Found: /static/css/style.css
-Not Found: /static/js/popper.min.js
-Not Found: /static/css/rtl.css
-Not Found: /static/js/jquery.min.js
-Not Found: /static/js/bootstrap.min.js
-Not Found: /static/js/jquery.meanmenu.js
-Not Found: /static/js/jquery.magnific-popup.min.js
-Not Found: /static/js/owl.carousel.min.js
-Not Found: /static/js/wow.min.js
-Not Found: /static/js/isotope.pkgd.min.js
-Not Found: /static/js/form-validator.min.js
-Not Found: /static/js/contact-form-script.js
-Traceback (most recent call last):
-  File "/home/bafghmah/mahd/passenger_wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-  File "/home/bafghmah/mahd/mahd/wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-ImportError: cannot import name 'application' from 'mahd.wsgi' (/home/bafghmah/mahd/mahd/wsgi.py)
-Not Found: /static/js/main.js
-Not Found: /static/images/admission/shape1.png
-Not Found: /static/css/flaticon.css
-Not Found: /static/images/admission/shape2.png
-Not Found: /static/images/shape.png
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/images/admission/shape5.png
-Not Found: /static/images/admission/shape4.png
-Not Found: /static/js/popper.min.js
-Not Found: /static/images/admission/shape3.png
-Not Found: /static/js/bootstrap.min.js
-Not Found: /static/js/jquery.meanmenu.js
-Not Found: /static/js/jquery.magnific-popup.min.js
-Not Found: /static/js/owl.carousel.min.js
-Not Found: /static/js/wow.min.js
-Not Found: /static/js/isotope.pkgd.min.js
-Not Found: /static/js/form-validator.min.js
-Not Found: /static/js/contact-form-script.js
-Not Found: /static/js/main.js
-Not Found: /static/images/favicon.ico
-Traceback (most recent call last):
-  File "/home/bafghmah/mahd/passenger_wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-  File "/home/bafghmah/mahd/mahd/wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-ImportError: cannot import name 'application' from 'mahd.wsgi' (/home/bafghmah/mahd/mahd/wsgi.py)
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/css/responsive.css.map
-Not Found: /static/css/style.css.map
-Not Found: /static/css/bootstrap.min.css.map
-Not Found: /static/js/bootstrap.min.js.map
-Traceback (most recent call last):
-  File "/home/bafghmah/mahd/passenger_wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-  File "/home/bafghmah/mahd/mahd/wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-ImportError: cannot import name 'application' from 'mahd.wsgi' (/home/bafghmah/mahd/mahd/wsgi.py)
-Not Found: /static/js/popper.min.js.map
-Traceback (most recent call last):
-  File "/home/bafghmah/mahd/passenger_wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-  File "/home/bafghmah/mahd/mahd/wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-ImportError: cannot import name 'application' from 'mahd.wsgi' (/home/bafghmah/mahd/mahd/wsgi.py)
-Traceback (most recent call last):
-  File "/home/bafghmah/mahd/passenger_wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-  File "/home/bafghmah/mahd/mahd/wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-ImportError: cannot import name 'application' from 'mahd.wsgi' (/home/bafghmah/mahd/mahd/wsgi.py)
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Traceback (most recent call last):
-  File "/home/bafghmah/mahd/passenger_wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-  File "/home/bafghmah/mahd/mahd/wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-ImportError: cannot import name 'application' from 'mahd.wsgi' (/home/bafghmah/mahd/mahd/wsgi.py)
-Traceback (most recent call last):
-  File "/home/bafghmah/mahd/passenger_wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-  File "/home/bafghmah/mahd/mahd/wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-ImportError: cannot import name 'application' from 'mahd.wsgi' (/home/bafghmah/mahd/mahd/wsgi.py)
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/css/Flaticon.html
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Traceback (most recent call last):
-  File "/home/bafghmah/mahd/passenger_wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-  File "/home/bafghmah/mahd/mahd/wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-ImportError: cannot import name 'application' from 'mahd.wsgi' (/home/bafghmah/mahd/mahd/wsgi.py)
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/css/Flaticon.html
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/css/Flaticon.html
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Traceback (most recent call last):
-  File "/home/bafghmah/mahd/passenger_wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-  File "/home/bafghmah/mahd/mahd/wsgi.py", line 1, in <module>
-    from mahd.wsgi import application 
-ImportError: cannot import name 'application' from 'mahd.wsgi' (/home/bafghmah/mahd/mahd/wsgi.py)
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /favicon.ico
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/css/Flaticon.html
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/css/Flaticon.html
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/css/Flaticon.html
-Not Found: /favicon.ico
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/css/Flaticon.html
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /robots.txt
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/css/Flaticon.html
-Not Found: /static/images/left-shape.png%22%20alt%3D%22shape
-Not Found: /static/js/popper.min.js.map
-Not Found: /static/js/bootstrap.min.js.map
-Not Found: /static/css/bootstrap.min.css.map
-Not Found: /static/css/responsive.css.map
-Not Found: /static/css/style.css.map
-Not Found: /static/css/bootstrap.min.css.map
-Not Found: /static/css/style.css.map
-Not Found: /static/js/popper.min.js.map
-Not Found: /static/js/bootstrap.min.js.map
-Not Found: /static/css/responsive.css.map
-Not Found: /favicon.ico
 Internal Server Error: /signup/
 Traceback (most recent call last):
   File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/utils/datastructures.py", line 76, in __getitem__
     list_ = super().__getitem__(key)
-KeyError: 'fatherphone'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/bafghmah/mahd/web/views.py", line 28, in SignUp
-    father_phone = request.POST['fatherphone']
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/utils/datastructures.py", line 78, in __getitem__
-    raise MultiValueDictKeyError(key)
-django.utils.datastructures.MultiValueDictKeyError: 'fatherphone'
-Not Found: /favicon.ico
-Not Found: /signup/static/images/favicon.ico
-Forbidden (CSRF cookie not set.): /admin/login/
-Forbidden (CSRF cookie not set.): /admin/login/
-Forbidden (CSRF cookie not set.): /signup/
-Forbidden (CSRF cookie not set.): /signup/
-Forbidden (CSRF cookie not set.): /signup/
-Internal Server Error: /signup/
-Traceback (most recent call last):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/utils/datastructures.py", line 76, in __getitem__
-    list_ = super().__getitem__(key)
-KeyError: 'fatherphone'
+KeyError: 'motherseri'
 
 During handling of the above exception, another exception occurred:
 
@@ -398,16 +13,16 @@ Traceback (most recent call last):
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
   File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
     return view_func(*args, **kwargs)
-  File "/home/bafghmah/mahd/web/views.py", line 30, in SignUp
-    father_phone = request.POST['fatherphone']
+  File "/home/bafghmah/mahd/web/views.py", line 27, in SignUp
+    motherseri = request.POST['motherseri']
   File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/utils/datastructures.py", line 78, in __getitem__
     raise MultiValueDictKeyError(key)
-django.utils.datastructures.MultiValueDictKeyError: 'fatherphone'
+django.utils.datastructures.MultiValueDictKeyError: 'motherseri'
 Internal Server Error: /signup/
 Traceback (most recent call last):
   File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/utils/datastructures.py", line 76, in __getitem__
     list_ = super().__getitem__(key)
-KeyError: 'fatherphone'
+KeyError: 'motherseri'
 
 During handling of the above exception, another exception occurred:
 
@@ -418,41 +33,18 @@ Traceback (most recent call last):
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
   File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
     return view_func(*args, **kwargs)
-  File "/home/bafghmah/mahd/web/views.py", line 30, in SignUp
-    father_phone = request.POST['fatherphone']
+  File "/home/bafghmah/mahd/web/views.py", line 27, in SignUp
+    motherseri = request.POST['motherseri']
   File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/utils/datastructures.py", line 78, in __getitem__
     raise MultiValueDictKeyError(key)
-django.utils.datastructures.MultiValueDictKeyError: 'fatherphone'
-Forbidden (CSRF cookie not set.): /admin/login/
-Forbidden (CSRF cookie not set.): /admin/login/
-Forbidden (CSRF cookie not set.): /admin/login/
-Forbidden (CSRF cookie not set.): /admin/login/
-Forbidden (CSRF cookie not set.): /admin/login/
-Forbidden (CSRF cookie not set.): /admin/login/
-Not Found: /favicon.ico
-Forbidden (CSRF cookie not set.): /admin/login/
-Forbidden (CSRF cookie not set.): /admin/login/
-Not Found: /favicon.ico
-Not Found: /robots.txt
-Not Found: /signup/static/images/favicon.ico
-2021-06-09 16:57:11.349095 [UID:1687][12684] Child process with pid: 12692 was killed by signal: 15, core dump: 0
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
+django.utils.datastructures.MultiValueDictKeyError: 'motherseri'
 Internal Server Error: /signup/
 Traceback (most recent call last):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
-    return self.cursor.execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 73, in execute
-    return self.cursor.execute(query, args)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/cursors.py", line 206, in execute
-    res = self._query(query)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/cursors.py", line 319, in _query
-    db.query(q)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/connections.py", line 259, in query
-    _mysql.connection.query(self, query)
-MySQLdb._exceptions.DataError: (1406, "Data too long for column 'father_nin' at row 1")
+  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/utils/datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'motherseri'
 
-The above exception was the direct cause of the following exception:
+During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
   File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
@@ -461,111 +53,18 @@ Traceback (most recent call last):
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
   File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
     return view_func(*args, **kwargs)
-  File "/home/bafghmah/mahd/web/views.py", line 49, in SignUp
-    mother_birth=mother_birth,telegram_phone=telegram_phone,e_place=eplace)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 85, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 453, in create
-    obj.save(force_insert=True, using=self.db)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 727, in save
-    force_update=force_update, update_fields=update_fields)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 765, in save_base
-    force_update, using, update_fields,
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 868, in _save_table
-    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 908, in _do_insert
-    using=using, raw=raw,
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 85, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 1270, in _insert
-    return query.get_compiler(using=using).execute_sql(returning_fields)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1416, in execute_sql
-    cursor.execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 98, in execute
-    return super().execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 66, in execute
-    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
-    return executor(sql, params, many, context)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
-    return self.cursor.execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/utils.py", line 90, in __exit__
-    raise dj_exc_value.with_traceback(traceback) from exc_value
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
-    return self.cursor.execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 73, in execute
-    return self.cursor.execute(query, args)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/cursors.py", line 206, in execute
-    res = self._query(query)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/cursors.py", line 319, in _query
-    db.query(q)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/connections.py", line 259, in query
-    _mysql.connection.query(self, query)
-django.db.utils.DataError: (1406, "Data too long for column 'father_nin' at row 1")
-Not Found: /favicon.ico
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /favicon.ico
-Not Found: /static/css/Flaticon.html
-Not Found: /ads.txt
-Not Found: /apple-touch-icon-120x120-precomposed.png
-Not Found: /apple-touch-icon-120x120.png
-Not Found: /apple-touch-icon-precomposed.png
-Not Found: /apple-touch-icon.png
-Not Found: /aaa9
-Not Found: /aad7
-Not Found: /aaa9
-Not Found: /aad7
-Not Found: /aaa9
-Not Found: /aad7
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /wp-login.php
-Not Found: /wp-login.php
-Not Found: /wp-login.php
-Not Found: /wp-login.php
-Not Found: /wp-login.php
-Not Found: /wp-login.php
-Not Found: /wp-login.php
-Not Found: /wp-login.php
-Not Found: /robots.txt
-Not Found: /wp-login.php
-Not Found: /wp-login.php
-Not Found: /favicon.ico
-Not Found: /wp-login.php
-Not Found: /wp-login.php
-Not Found: /favicon.ico
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
+  File "/home/bafghmah/mahd/web/views.py", line 27, in SignUp
+    motherseri = request.POST['motherseri']
+  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/utils/datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'motherseri'
 Internal Server Error: /signup/
 Traceback (most recent call last):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
-    return self.cursor.execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 73, in execute
-    return self.cursor.execute(query, args)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/cursors.py", line 206, in execute
-    res = self._query(query)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/cursors.py", line 319, in _query
-    db.query(q)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/connections.py", line 259, in query
-    _mysql.connection.query(self, query)
-MySQLdb._exceptions.DataError: (1406, "Data too long for column 'mother_work' at row 1")
+  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/utils/datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'motherseri'
 
-The above exception was the direct cause of the following exception:
+During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
   File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
@@ -574,64 +73,12 @@ Traceback (most recent call last):
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
   File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
     return view_func(*args, **kwargs)
-  File "/home/bafghmah/mahd/web/views.py", line 49, in SignUp
-    mother_birth=mother_birth,telegram_phone=telegram_phone,e_place=eplace)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 85, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 453, in create
-    obj.save(force_insert=True, using=self.db)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 727, in save
-    force_update=force_update, update_fields=update_fields)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 765, in save_base
-    force_update, using, update_fields,
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 868, in _save_table
-    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 908, in _do_insert
-    using=using, raw=raw,
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 85, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 1270, in _insert
-    return query.get_compiler(using=using).execute_sql(returning_fields)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1416, in execute_sql
-    cursor.execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 98, in execute
-    return super().execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 66, in execute
-    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
-    return executor(sql, params, many, context)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
-    return self.cursor.execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/utils.py", line 90, in __exit__
-    raise dj_exc_value.with_traceback(traceback) from exc_value
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
-    return self.cursor.execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 73, in execute
-    return self.cursor.execute(query, args)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/cursors.py", line 206, in execute
-    res = self._query(query)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/cursors.py", line 319, in _query
-    db.query(q)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/connections.py", line 259, in query
-    _mysql.connection.query(self, query)
-django.db.utils.DataError: (1406, "Data too long for column 'mother_work' at row 1")
-Not Found: /favicon.ico
+  File "/home/bafghmah/mahd/web/views.py", line 27, in SignUp
+    motherseri = request.POST['motherseri']
+  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/utils/datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'motherseri'
 Internal Server Error: /signup/
-Traceback (most recent call last):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
-    return self.cursor.execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 73, in execute
-    return self.cursor.execute(query, args)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/cursors.py", line 206, in execute
-    res = self._query(query)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/cursors.py", line 319, in _query
-    db.query(q)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/connections.py", line 259, in query
-    _mysql.connection.query(self, query)
-MySQLdb._exceptions.DataError: (1406, "Data too long for column 'mother_work' at row 1")
-
-The above exception was the direct cause of the following exception:
-
 Traceback (most recent call last):
   File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
     response = get_response(request)
@@ -639,65 +86,16 @@ Traceback (most recent call last):
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
   File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
     return view_func(*args, **kwargs)
-  File "/home/bafghmah/mahd/web/views.py", line 49, in SignUp
-    mother_birth=mother_birth,telegram_phone=telegram_phone,e_place=eplace)
+  File "/home/bafghmah/mahd/web/views.py", line 80, in SignUp
+    bimeh=bimeh, shahid=shahid, farhangi=farhangi, children=children, child=child)
   File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 85, in manager_method
     return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 453, in create
-    obj.save(force_insert=True, using=self.db)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 727, in save
-    force_update=force_update, update_fields=update_fields)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 765, in save_base
-    force_update, using, update_fields,
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 868, in _save_table
-    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 908, in _do_insert
-    using=using, raw=raw,
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 85, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 1270, in _insert
-    return query.get_compiler(using=using).execute_sql(returning_fields)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1416, in execute_sql
-    cursor.execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 98, in execute
-    return super().execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 66, in execute
-    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
-    return executor(sql, params, many, context)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
-    return self.cursor.execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/utils.py", line 90, in __exit__
-    raise dj_exc_value.with_traceback(traceback) from exc_value
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
-    return self.cursor.execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 73, in execute
-    return self.cursor.execute(query, args)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/cursors.py", line 206, in execute
-    res = self._query(query)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/cursors.py", line 319, in _query
-    db.query(q)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/connections.py", line 259, in query
-    _mysql.connection.query(self, query)
-django.db.utils.DataError: (1406, "Data too long for column 'mother_work' at row 1")
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
+  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 451, in create
+    obj = self.model(**kwargs)
+  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 503, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: Userprofile() got an unexpected keyword argument 'Chid'
 Internal Server Error: /signup/
-Traceback (most recent call last):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
-    return self.cursor.execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 73, in execute
-    return self.cursor.execute(query, args)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/cursors.py", line 206, in execute
-    res = self._query(query)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/cursors.py", line 319, in _query
-    db.query(q)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/connections.py", line 259, in query
-    _mysql.connection.query(self, query)
-MySQLdb._exceptions.DataError: (1406, "Data too long for column 'mother_work' at row 1")
-
-The above exception was the direct cause of the following exception:
-
 Traceback (most recent call last):
   File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
     response = get_response(request)
@@ -705,63 +103,16 @@ Traceback (most recent call last):
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
   File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
     return view_func(*args, **kwargs)
-  File "/home/bafghmah/mahd/web/views.py", line 49, in SignUp
-    mother_birth=mother_birth,telegram_phone=telegram_phone,e_place=eplace)
+  File "/home/bafghmah/mahd/web/views.py", line 80, in SignUp
+    bimeh=bimeh, shahid=shahid, farhangi=farhangi, children=children, child=child)
   File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 85, in manager_method
     return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 453, in create
-    obj.save(force_insert=True, using=self.db)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 727, in save
-    force_update=force_update, update_fields=update_fields)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 765, in save_base
-    force_update, using, update_fields,
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 868, in _save_table
-    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 908, in _do_insert
-    using=using, raw=raw,
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 85, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 1270, in _insert
-    return query.get_compiler(using=using).execute_sql(returning_fields)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1416, in execute_sql
-    cursor.execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 98, in execute
-    return super().execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 66, in execute
-    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
-    return executor(sql, params, many, context)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
-    return self.cursor.execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/utils.py", line 90, in __exit__
-    raise dj_exc_value.with_traceback(traceback) from exc_value
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
-    return self.cursor.execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 73, in execute
-    return self.cursor.execute(query, args)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/cursors.py", line 206, in execute
-    res = self._query(query)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/cursors.py", line 319, in _query
-    db.query(q)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/connections.py", line 259, in query
-    _mysql.connection.query(self, query)
-django.db.utils.DataError: (1406, "Data too long for column 'mother_work' at row 1")
+  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 451, in create
+    obj = self.model(**kwargs)
+  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 503, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: Userprofile() got an unexpected keyword argument 'father_phon'
 Internal Server Error: /signup/
-Traceback (most recent call last):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
-    return self.cursor.execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 73, in execute
-    return self.cursor.execute(query, args)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/cursors.py", line 206, in execute
-    res = self._query(query)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/cursors.py", line 319, in _query
-    db.query(q)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/connections.py", line 259, in query
-    _mysql.connection.query(self, query)
-MySQLdb._exceptions.DataError: (1406, "Data too long for column 'mother_work' at row 1")
-
-The above exception was the direct cause of the following exception:
-
 Traceback (most recent call last):
   File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
     response = get_response(request)
@@ -769,650 +120,16 @@ Traceback (most recent call last):
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
   File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
     return view_func(*args, **kwargs)
-  File "/home/bafghmah/mahd/web/views.py", line 49, in SignUp
-    mother_birth=mother_birth,telegram_phone=telegram_phone,e_place=eplace)
+  File "/home/bafghmah/mahd/web/views.py", line 80, in SignUp
+    bimeh=bimeh, shahid=shahid, farhangi=farhangi, children=children, child=child)
   File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 85, in manager_method
     return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 453, in create
-    obj.save(force_insert=True, using=self.db)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 727, in save
-    force_update=force_update, update_fields=update_fields)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 765, in save_base
-    force_update, using, update_fields,
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 868, in _save_table
-    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 908, in _do_insert
-    using=using, raw=raw,
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 85, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 1270, in _insert
-    return query.get_compiler(using=using).execute_sql(returning_fields)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1416, in execute_sql
-    cursor.execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 98, in execute
-    return super().execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 66, in execute
-    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
-    return executor(sql, params, many, context)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
-    return self.cursor.execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/utils.py", line 90, in __exit__
-    raise dj_exc_value.with_traceback(traceback) from exc_value
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
-    return self.cursor.execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 73, in execute
-    return self.cursor.execute(query, args)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/cursors.py", line 206, in execute
-    res = self._query(query)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/cursors.py", line 319, in _query
-    db.query(q)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/connections.py", line 259, in query
-    _mysql.connection.query(self, query)
-django.db.utils.DataError: (1406, "Data too long for column 'mother_work' at row 1")
+  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 451, in create
+    obj = self.model(**kwargs)
+  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 503, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: Userprofile() got an unexpected keyword argument 'hand'
 Internal Server Error: /signup/
-Traceback (most recent call last):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
-    return self.cursor.execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 73, in execute
-    return self.cursor.execute(query, args)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/cursors.py", line 206, in execute
-    res = self._query(query)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/cursors.py", line 319, in _query
-    db.query(q)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/connections.py", line 259, in query
-    _mysql.connection.query(self, query)
-MySQLdb._exceptions.DataError: (1406, "Data too long for column 'mother_work' at row 1")
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
-    return view_func(*args, **kwargs)
-  File "/home/bafghmah/mahd/web/views.py", line 49, in SignUp
-    mother_birth=mother_birth,telegram_phone=telegram_phone,e_place=eplace)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 85, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 453, in create
-    obj.save(force_insert=True, using=self.db)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 727, in save
-    force_update=force_update, update_fields=update_fields)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 765, in save_base
-    force_update, using, update_fields,
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 868, in _save_table
-    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 908, in _do_insert
-    using=using, raw=raw,
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 85, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 1270, in _insert
-    return query.get_compiler(using=using).execute_sql(returning_fields)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1416, in execute_sql
-    cursor.execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 98, in execute
-    return super().execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 66, in execute
-    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
-    return executor(sql, params, many, context)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
-    return self.cursor.execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/utils.py", line 90, in __exit__
-    raise dj_exc_value.with_traceback(traceback) from exc_value
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
-    return self.cursor.execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 73, in execute
-    return self.cursor.execute(query, args)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/cursors.py", line 206, in execute
-    res = self._query(query)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/cursors.py", line 319, in _query
-    db.query(q)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/connections.py", line 259, in query
-    _mysql.connection.query(self, query)
-django.db.utils.DataError: (1406, "Data too long for column 'mother_work' at row 1")
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /signup/static/images/favicon.ico
-Not Found: /signup/static/images/favicon.ico
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /apple-touch-icon-120x120-precomposed.png
-Not Found: /apple-touch-icon-120x120.png
-Not Found: /apple-touch-icon-precomposed.png
-Not Found: /apple-touch-icon.png
-Not Found: /favicon.ico
-Not Found: /apple-touch-icon-120x120-precomposed.png
-Not Found: /apple-touch-icon-120x120.png
-Not Found: /apple-touch-icon-precomposed.png
-Not Found: /apple-touch-icon.png
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /signup/static/images/favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /signup/static/images/favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Internal Server Error: /signup/
-Traceback (most recent call last):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
-    return self.cursor.execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 73, in execute
-    return self.cursor.execute(query, args)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/cursors.py", line 206, in execute
-    res = self._query(query)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/cursors.py", line 319, in _query
-    db.query(q)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/connections.py", line 259, in query
-    _mysql.connection.query(self, query)
-MySQLdb._exceptions.DataError: (1406, "Data too long for column 'father_nin' at row 1")
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
-    return view_func(*args, **kwargs)
-  File "/home/bafghmah/mahd/web/views.py", line 49, in SignUp
-    mother_birth=mother_birth,telegram_phone=telegram_phone,e_place=eplace)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 85, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 453, in create
-    obj.save(force_insert=True, using=self.db)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 727, in save
-    force_update=force_update, update_fields=update_fields)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 765, in save_base
-    force_update, using, update_fields,
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 868, in _save_table
-    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 908, in _do_insert
-    using=using, raw=raw,
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 85, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 1270, in _insert
-    return query.get_compiler(using=using).execute_sql(returning_fields)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1416, in execute_sql
-    cursor.execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 98, in execute
-    return super().execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 66, in execute
-    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
-    return executor(sql, params, many, context)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
-    return self.cursor.execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/utils.py", line 90, in __exit__
-    raise dj_exc_value.with_traceback(traceback) from exc_value
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
-    return self.cursor.execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 73, in execute
-    return self.cursor.execute(query, args)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/cursors.py", line 206, in execute
-    res = self._query(query)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/cursors.py", line 319, in _query
-    db.query(q)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/connections.py", line 259, in query
-    _mysql.connection.query(self, query)
-django.db.utils.DataError: (1406, "Data too long for column 'father_nin' at row 1")
-Not Found: /favicon.ico
-Internal Server Error: /signup/
-Traceback (most recent call last):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
-    return self.cursor.execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 73, in execute
-    return self.cursor.execute(query, args)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/cursors.py", line 206, in execute
-    res = self._query(query)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/cursors.py", line 319, in _query
-    db.query(q)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/connections.py", line 259, in query
-    _mysql.connection.query(self, query)
-MySQLdb._exceptions.DataError: (1406, "Data too long for column 'father_nin' at row 1")
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
-    return view_func(*args, **kwargs)
-  File "/home/bafghmah/mahd/web/views.py", line 49, in SignUp
-    mother_birth=mother_birth,telegram_phone=telegram_phone,e_place=eplace)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 85, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 453, in create
-    obj.save(force_insert=True, using=self.db)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 727, in save
-    force_update=force_update, update_fields=update_fields)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 765, in save_base
-    force_update, using, update_fields,
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 868, in _save_table
-    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 908, in _do_insert
-    using=using, raw=raw,
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 85, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 1270, in _insert
-    return query.get_compiler(using=using).execute_sql(returning_fields)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1416, in execute_sql
-    cursor.execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 98, in execute
-    return super().execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 66, in execute
-    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
-    return executor(sql, params, many, context)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
-    return self.cursor.execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/utils.py", line 90, in __exit__
-    raise dj_exc_value.with_traceback(traceback) from exc_value
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
-    return self.cursor.execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 73, in execute
-    return self.cursor.execute(query, args)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/cursors.py", line 206, in execute
-    res = self._query(query)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/cursors.py", line 319, in _query
-    db.query(q)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/connections.py", line 259, in query
-    _mysql.connection.query(self, query)
-django.db.utils.DataError: (1406, "Data too long for column 'father_nin' at row 1")
-Internal Server Error: /signup/
-Traceback (most recent call last):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
-    return self.cursor.execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 73, in execute
-    return self.cursor.execute(query, args)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/cursors.py", line 206, in execute
-    res = self._query(query)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/cursors.py", line 319, in _query
-    db.query(q)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/connections.py", line 259, in query
-    _mysql.connection.query(self, query)
-MySQLdb._exceptions.DataError: (1406, "Data too long for column 'father_nin' at row 1")
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
-    return view_func(*args, **kwargs)
-  File "/home/bafghmah/mahd/web/views.py", line 49, in SignUp
-    mother_birth=mother_birth,telegram_phone=telegram_phone,e_place=eplace)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 85, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 453, in create
-    obj.save(force_insert=True, using=self.db)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 727, in save
-    force_update=force_update, update_fields=update_fields)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 765, in save_base
-    force_update, using, update_fields,
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 868, in _save_table
-    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 908, in _do_insert
-    using=using, raw=raw,
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 85, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 1270, in _insert
-    return query.get_compiler(using=using).execute_sql(returning_fields)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1416, in execute_sql
-    cursor.execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 98, in execute
-    return super().execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 66, in execute
-    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
-    return executor(sql, params, many, context)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
-    return self.cursor.execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/utils.py", line 90, in __exit__
-    raise dj_exc_value.with_traceback(traceback) from exc_value
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
-    return self.cursor.execute(sql, params)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 73, in execute
-    return self.cursor.execute(query, args)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/cursors.py", line 206, in execute
-    res = self._query(query)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/cursors.py", line 319, in _query
-    db.query(q)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/MySQLdb/connections.py", line 259, in query
-    _mysql.connection.query(self, query)
-django.db.utils.DataError: (1406, "Data too long for column 'father_nin' at row 1")
-Not Found: /robots.txt
-Not Found: /favicon.ico
-Forbidden (CSRF cookie not set.): /admin/login/
-Forbidden (CSRF cookie not set.): /admin/login/
-Forbidden (CSRF cookie not set.): /admin/login/
-Not Found: /ad
-Not Found: /favicon.ico
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /signup/static/images/favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /static/css/Flaticon.html
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /signup/static/images/favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /robots.txt
-Not Found: /robots.txt
-Not Found: /wp-login.php
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /static/css/Flaticon.html
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /robots.txt
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /wp-login.php
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /ads.txt
-Not Found: /signup/static/images/favicon.ico
-Not Found: /signup/static/images/favicon.ico
-Not Found: /wp-login.php
-Not Found: //
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: //
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /static/css/admin/css/base.css
-Not Found: /ads.txt
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /robots.txt
-Not Found: /favicon.ico
-Not Found: /wp-login.php
-Not Found: /wp-login.php
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Invalid HTTP_HOST header: 'mail.bafghmahd.ir'. You may need to add 'mail.bafghmahd.ir' to ALLOWED_HOSTS.
-Bad Request: /
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /wp-login.php
-Not Found: /robots.txt
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /wp-login.php
-Not Found: /wp-login.php
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /wp-json/wp/v2/users/
-Not Found: /xmlrpc.php
-Not Found: /xmlrpc.php
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /robots.txt
-Not Found: /favicon.ico
-Not Found: /wp-login.php
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Forbidden (CSRF cookie not set.): /admin/login/
-Not Found: /ad
-Not Found: /favicon.ico
-Not Found: /wp-login.php
-Not Found: /wp-login.php
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /.env
-Not Found: /wp-content/
-Invalid HTTP_HOST header: 'mail.bafghmahd.ir'. You may need to add 'mail.bafghmahd.ir' to ALLOWED_HOSTS.
-Bad Request: /
-Not Found: /robots.txt
-Not Found: /userdetail
-Not Found: /favicon.ico
-Internal Server Error: /admin/
 Traceback (most recent call last):
   File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
     response = get_response(request)
@@ -1450,57 +167,13 @@ Traceback (most recent call last):
   File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
   File "<frozen importlib._bootstrap_external>", line 728, in exec_module
   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-  File "/home/bafghmah/mahd/web/urls.py", line 8, in <module>
-    path('userprofiles/',userprofile,name='userprofile'),
-NameError: name 'userprofile' is not defined
-Internal Server Error: /favicon.ico
-Traceback (most recent call last):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/utils/deprecation.py", line 116, in __call__
-    response = self.process_request(request)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/middleware/common.py", line 53, in process_request
-    if self.should_redirect_with_slash(request):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/middleware/common.py", line 70, in should_redirect_with_slash
-    if not is_valid_path(request.path_info, urlconf):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/urls/base.py", line 153, in is_valid_path
-    return resolve(path, urlconf)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/urls/base.py", line 24, in resolve
-    return get_resolver(urlconf).resolve(path)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/urls/resolvers.py", line 556, in resolve
-    for pattern in self.url_patterns:
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/utils/functional.py", line 48, in __get__
-    res = instance.__dict__[self.name] = self.func(instance)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/urls/resolvers.py", line 598, in url_patterns
-    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/utils/functional.py", line 48, in __get__
-    res = instance.__dict__[self.name] = self.func(instance)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/urls/resolvers.py", line 591, in urlconf_module
-    return import_module(self.urlconf_name)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib64/python3.7/importlib/__init__.py", line 127, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
-  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
-  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-  File "/home/bafghmah/mahd/mahd/urls.py", line 23, in <module>
-    path('',include('web.urls'))
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
-    urlconf_module = import_module(urlconf_module)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib64/python3.7/importlib/__init__.py", line 127, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
-  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
-  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-  File "/home/bafghmah/mahd/web/urls.py", line 8, in <module>
-    path('userprofiles/',userprofile,name='userprofile'),
-NameError: name 'userprofile' is not defined
-Internal Server Error: /
+  File "/home/bafghmah/mahd/web/urls.py", line 2, in <module>
+    from .views import SignUp, Userprofiles,home,UserDetail
+  File "/home/bafghmah/mahd/web/views.py", line 79
+    telegram_phone=telegram_phone, e_place=eplace, Hand=hand, Talagh=talagh,
+                                                  ^
+SyntaxError: keyword argument repeated
+Internal Server Error: /signup/
 Traceback (most recent call last):
   File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
     response = get_response(request)
@@ -1538,23 +211,20 @@ Traceback (most recent call last):
   File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
   File "<frozen importlib._bootstrap_external>", line 728, in exec_module
   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-  File "/home/bafghmah/mahd/web/urls.py", line 8, in <module>
-    path('userprofiles/',userprofile,name='userprofile'),
-NameError: name 'userprofile' is not defined
-Internal Server Error: /favicon.ico
+  File "/home/bafghmah/mahd/web/urls.py", line 2, in <module>
+    from .views import SignUp, Userprofiles,home,UserDetail
+  File "/home/bafghmah/mahd/web/views.py", line 79
+    telegram_phone=telegram_phone, e_place=eplace, Hand=hand, Talagh=talagh,
+                                                  ^
+SyntaxError: keyword argument repeated
+Internal Server Error: /signup/
 Traceback (most recent call last):
   File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
     response = get_response(request)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/utils/deprecation.py", line 116, in __call__
-    response = self.process_request(request)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/middleware/common.py", line 53, in process_request
-    if self.should_redirect_with_slash(request):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/middleware/common.py", line 70, in should_redirect_with_slash
-    if not is_valid_path(request.path_info, urlconf):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/urls/base.py", line 153, in is_valid_path
-    return resolve(path, urlconf)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/urls/base.py", line 24, in resolve
-    return get_resolver(urlconf).resolve(path)
+  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 167, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 290, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
   File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/urls/resolvers.py", line 556, in resolve
     for pattern in self.url_patterns:
   File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/utils/functional.py", line 48, in __get__
@@ -1585,440 +255,60 @@ Traceback (most recent call last):
   File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
   File "<frozen importlib._bootstrap_external>", line 728, in exec_module
   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-  File "/home/bafghmah/mahd/web/urls.py", line 8, in <module>
-    path('userprofiles/',userprofile,name='userprofile'),
-NameError: name 'userprofile' is not defined
-Not Found: /userprofile
-Not Found: /favicon.ico
-Not Found: /a
-Not Found: /favicon.ico
-Not Found: /userprofile
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /userprofile
-Internal Server Error: /userprofiles/
+  File "/home/bafghmah/mahd/web/urls.py", line 2, in <module>
+    from .views import SignUp, Userprofiles,home,UserDetail
+  File "/home/bafghmah/mahd/web/views.py", line 79
+    telegram_phone=telegram_phone, e_place=eplace, Hand=hand, Talagh=talagh,
+                                                  ^
+SyntaxError: keyword argument repeated
+Internal Server Error: /signup/
 Traceback (most recent call last):
   File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
     response = get_response(request)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/bafghmah/mahd/web/views.py", line 65, in Userprofiles
-    userprofile = Userprofile.objects.all().sort('name')
-AttributeError: 'QuerySet' object has no attribute 'sort'
-Internal Server Error: /userprofiles/
+  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 167, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 290, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/urls/resolvers.py", line 556, in resolve
+    for pattern in self.url_patterns:
+  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/urls/resolvers.py", line 598, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/urls/resolvers.py", line 591, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/home/bafghmah/virtualenv/mahd/3.7/lib64/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/bafghmah/mahd/mahd/urls.py", line 23, in <module>
+    path('',include('web.urls'))
+  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/home/bafghmah/virtualenv/mahd/3.7/lib64/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/bafghmah/mahd/web/urls.py", line 2, in <module>
+    from .views import SignUp, Userprofiles,home,UserDetail
+  File "/home/bafghmah/mahd/web/views.py", line 79
+    telegram_phone=telegram_phone, e_place=eplace, Hand=hand, Talagh=talagh,
+                                                  ^
+SyntaxError: keyword argument repeated
+[UID:1687][52401] Child process with pid: 52682 was killed by signal: 15, core dump: 0
 Traceback (most recent call last):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/bafghmah/mahd/web/views.py", line 65, in Userprofiles
-    userprofile = Userprofile.objects.all().order('name')
-AttributeError: 'QuerySet' object has no attribute 'sort'
-Not Found: /favicon.ico
-Internal Server Error: /userprofiles/
-Traceback (most recent call last):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/bafghmah/mahd/web/views.py", line 65, in Userprofiles
-    userprofile = Userprofile.objects.all().order('name')
-AttributeError: 'QuerySet' object has no attribute 'sort'
-Not Found: /favicon.ico
-Internal Server Error: /userprofiles/
-Traceback (most recent call last):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/bafghmah/mahd/web/views.py", line 65, in Userprofiles
-    userprofile = Userprofile.objects.all().order('name')
-AttributeError: 'QuerySet' object has no attribute 'sort'
-Not Found: /favicon.ico
-Internal Server Error: /userprofiles/
-Traceback (most recent call last):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/bafghmah/mahd/web/views.py", line 66, in Userprofiles
-    return render(request,'userprofile.html',{'userprofiles':sorted(userprofile)})
-TypeError: '<' not supported between instances of 'Userprofile' and 'Userprofile'
-Internal Server Error: /userprofiles/
-Traceback (most recent call last):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/bafghmah/mahd/web/views.py", line 65, in Userprofiles
-    userprofile = Userprofile.objects.all()
-AttributeError: 'QuerySet' object has no attribute 'sort'
-Internal Server Error: /userprofiles/
-Traceback (most recent call last):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/bafghmah/mahd/web/views.py", line 65, in Userprofiles
-    userprofile = Userprofile.objects.all()
-AttributeError: 'QuerySet' object has no attribute 'sort'
-Internal Server Error: /userprofiles/
-Traceback (most recent call last):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/bafghmah/mahd/web/views.py", line 66, in Userprofiles
-    return render(request,'userprofile.html',{'userprofiles':userprofile})
-TypeError: '<' not supported between instances of 'Userprofile' and 'Userprofile'
-Internal Server Error: /userprofiles/
-Traceback (most recent call last):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/bafghmah/mahd/web/views.py", line 66, in Userprofiles
-    return render(request,'userprofile.html',{'userprofiles':userprofile})
-TypeError: '<' not supported between instances of 'Userprofile' and 'Userprofile'
-Internal Server Error: /userprofiles/
-Traceback (most recent call last):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/bafghmah/mahd/web/views.py", line 66, in Userprofiles
-    return render(request,'userprofile.html',{'userprofiles':userprofile})
-TypeError: '<' not supported between instances of 'Userprofile' and 'Userprofile'
-Internal Server Error: /userprofiles/
-Traceback (most recent call last):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/bafghmah/mahd/web/views.py", line 66, in Userprofiles
-    return render(request,'userprofile.html',{'userprofiles':userprofile})
-TypeError: '<' not supported between instances of 'Userprofile' and 'Userprofile'
-Internal Server Error: /userprofiles/
-Traceback (most recent call last):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/bafghmah/mahd/web/views.py", line 65, in Userprofiles
-    userprofile = Userprofile.objects.all()
-AttributeError: 'QuerySet' object has no attribute 'sort'
-Internal Server Error: /userprofiles/
-Traceback (most recent call last):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/bafghmah/mahd/web/views.py", line 65, in Userprofiles
-    userprofile = Userprofile.objects.all()
-AttributeError: 'QuerySet' object has no attribute 'sort'
-Internal Server Error: /userprofiles/
-Traceback (most recent call last):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/bafghmah/mahd/web/views.py", line 66, in Userprofiles
-    return render(request,'userprofile.html',{'userprofiles':userprofile})
-TypeError: '<' not supported between instances of 'Userprofile' and 'Userprofile'
-Internal Server Error: /userprofiles/
-Traceback (most recent call last):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/bafghmah/mahd/web/views.py", line 65, in Userprofiles
-    userprofiles = Userprofile.objects.all()
-AttributeError: 'QuerySet' object has no attribute 'sort'
-Internal Server Error: /userprofiles/
-Traceback (most recent call last):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/bafghmah/mahd/web/views.py", line 65, in Userprofiles
-    userprofiles = Userprofile.objects.all()
-AttributeError: 'QuerySet' object has no attribute 'sort'
-Internal Server Error: /userprofiles/
-Traceback (most recent call last):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/bafghmah/mahd/web/views.py", line 65, in Userprofiles
-    userprofiles = Userprofile.objects.all()
-AttributeError: 'QuerySet' object has no attribute 'sort'
-Internal Server Error: /userprofiles/
-Traceback (most recent call last):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/bafghmah/mahd/web/views.py", line 66, in Userprofiles
-    return render(request,'userprofile.html',{'userprofiles':userprofiles})
-TypeError: '<' not supported between instances of 'Userprofile' and 'Userprofile'
-Internal Server Error: /userprofiles/
-Traceback (most recent call last):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/bafghmah/mahd/web/views.py", line 65, in Userprofiles
-    userprofiles = Userprofile.objects.all()
-AttributeError: 'QuerySet' object has no attribute 'sort'
-Internal Server Error: /userprofiles/
-Traceback (most recent call last):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/bafghmah/mahd/web/views.py", line 65, in Userprofiles
-    userprofiles = Userprofile.objects.all()
-AttributeError: 'QuerySet' object has no attribute 'sort'
-Internal Server Error: /userprofiles/
-Traceback (most recent call last):
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
-    response = get_response(request)
-  File "/home/bafghmah/virtualenv/mahd/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/home/bafghmah/mahd/web/views.py", line 66, in Userprofiles
-    return render(request,'userprofile.html',{'userprofiles':userprofiles})
-TypeError: '<' not supported between instances of 'Userprofile' and 'Userprofile'
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /userprofile
-Not Found: /favicon.ico
-Not Found: /static/css/bootstrap.min.css.map
-Not Found: /static/css/style.css.map
-Not Found: /static/css/style.css.map
-Not Found: /static/css/bootstrap.min.css.map
-Not Found: /static/css/bootstrap.min.css.map
-Not Found: /static/css/style.css.map
-Not Found: /static/css/bootstrap.min.css.map
-Not Found: /static/css/style.css.map
-Not Found: /static/css/bootstrap.min.css.map
-Not Found: /static/css/style.css.map
-Not Found: /static/css/bootstrap.min.css.map
-Not Found: /static/css/style.css.map
-Not Found: /favicon.ico
-Not Found: /wp-login.php
-Not Found: /robots.txt
-Not Found: /favicon.ico
-Not Found: /wp-login.php
-Not Found: /ads.txt
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /favicon.ico
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /static/css/Flaticon.html
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /wp-login.php
-Not Found: /wp-login.php
-Not Found: /wp-login.php
-Not Found: /wp-login.php
-Not Found: /wp-login.php
-Not Found: /wp-login.php
-Not Found: /wp-login.php
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /favicon.ico
-Not Found: /xmlrpc.php
-Not Found: /wp-login.php
-Not Found: /robots.txt
-Forbidden (CSRF cookie not set.): /admin/login/
-Not Found: /sd
-Not Found: /sd
-Not Found: /sd
-Not Found: /sd
-Not Found: /sa
-Not Found: /sa
-2021-09-18 15:58:37.065850 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:37.860221 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:37.960402 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:38.060582 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:38.160746 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:38.260919 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:38.361093 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:38.461267 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:38.561432 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:38.661595 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:38.761754 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:38.861934 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:38.962099 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:39.062270 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:39.162441 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:39.262605 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:39.362810 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:39.462979 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:39.563151 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:39.663313 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:40.338313 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:40.438517 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:40.538735 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:40.638974 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:40.739187 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:40.839393 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:40.939572 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:41.039769 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:41.139965 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:41.240138 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:41.340329 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:41.440544 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:41.540762 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:41.640956 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:41.741149 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:41.841368 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:41.941578 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:42.041776 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:42.141961 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:42.242165 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:42.342371 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:42.374005 [UID:1687][60528] Child process with pid: 15847 was killed by signal: 15, core dump: 0
-2021-09-18 15:58:42.375625 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:42.475836 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:42.576168 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:42.676366 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:42.776549 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:42.876731 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:42.976942 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:43.077131 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:43.177316 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:43.277496 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:43.377676 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:43.477869 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:43.578081 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:43.678276 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:43.752595 [UID:1687][60528] Child process with pid: 15848 was killed by signal: 15, core dump: 0
-2021-09-18 15:58:43.754216 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:43.854433 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:43.954612 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:44.054772 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:44.154950 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:44.255131 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:44.355302 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:44.455538 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:44.555714 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:44.655911 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:44.756087 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:44.856256 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:44.956463 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:45.056660 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:45.156857 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:45.257049 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:45.357241 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:45.457422 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:45.557619 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:45.657845 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:45.668294 [UID:1687][60528] Child process with pid: 15852 was killed by signal: 15, core dump: 0
-2021-09-18 15:58:45.669770 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:45.770106 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:45.870332 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:45.970505 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:46.070708 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:46.170893 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:46.271064 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:46.371239 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:46.471546 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:46.571758 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:46.671969 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:46.772181 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:46.872362 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:46.972587 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:47.072776 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:47.172958 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:47.273138 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:47.373324 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:47.473540 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:47.573734 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:47.673922 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:47.774109 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:47.874295 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:47.974549 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:48.074754 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:48.174939 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:48.275123 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:48.375341 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:48.475537 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:48.575729 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:48.675912 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:48.776098 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:48.876290 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:48.976494 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:49.076702 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:49.176889 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:49.277083 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:49.377281 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:49.477469 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:49.577652 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:49.677821 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:49.777993 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:49.878185 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:49.978398 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:50.078569 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:50.178747 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:50.278938 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:50.379120 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:50.444615 [UID:1687][60528] Child process with pid: 15866 was killed by signal: 15, core dump: 0
-2021-09-18 15:58:50.446082 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:50.546261 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:50.646451 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:50.746640 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:50.846797 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:50.947041 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:51.047265 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:51.147458 [UID:1687][60528] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2021-09-18 15:58:51.240330 [UID:1687][60528] Child process with pid: 15900 was killed by signal: 15, core dump: 0
-2021-09-18 15:58:51.707936 [UID:1687][60528] Child process with pid: 15870 was killed by signal: 15, core dump: 0
-2021-09-18 15:59:00.673998 [UID:1687][60528] Child process with pid: 15860 was killed by signal: 15, core dump: 0
-2021-09-18 15:59:01.022955 [UID:1687][60528] Child process with pid: 15858 was killed by signal: 15, core dump: 0
-2021-09-18 15:59:01.023186 [UID:1687][60528] Child process with pid: 15859 was killed by signal: 15, core dump: 0
-2021-09-18 15:59:01.615735 [UID:1687][60528] Child process with pid: 15998 was killed by signal: 15, core dump: 0
-2021-09-18 15:59:02.009279 [UID:1687][60528] Child process with pid: 15979 was killed by signal: 15, core dump: 0
-2021-09-18 15:59:02.497780 [UID:1687][60528] Child process with pid: 15921 was killed by signal: 15, core dump: 0
-2021-09-22 16:45:03.951066 [UID:1687][20574] Child process with pid: 20945 was killed by signal: 15, core dump: 0
-OSError: LSAPI: Socket read/write error
-2022-03-02 06:18:39.113716 [UID:1687][26205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2022-03-02 06:18:39.214248 [UID:1687][26205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2022-03-02 06:18:39.314636 [UID:1687][26205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2022-03-02 06:18:39.414982 [UID:1687][26205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2022-03-02 06:18:39.515245 [UID:1687][26205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2022-03-02 06:18:39.615611 [UID:1687][26205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2022-03-02 06:18:39.715808 [UID:1687][26205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2022-03-02 06:18:39.816020 [UID:1687][26205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2022-03-02 06:18:39.916374 [UID:1687][26205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2022-03-02 06:18:40.016692 [UID:1687][26205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2022-03-02 06:18:40.116912 [UID:1687][26205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2022-03-02 06:18:40.217284 [UID:1687][26205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2022-03-02 06:18:40.317505 [UID:1687][26205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2022-03-02 06:18:40.417780 [UID:1687][26205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2022-03-02 06:18:40.518084 [UID:1687][26205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2022-03-02 06:18:40.618400 [UID:1687][26205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2022-03-02 06:18:40.718632 [UID:1687][26205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2022-03-02 06:18:40.818977 [UID:1687][26205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2022-03-02 06:18:40.919202 [UID:1687][26205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2022-03-02 06:18:41.019467 [UID:1687][26205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2022-03-02 06:18:41.119687 [UID:1687][26205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2022-03-02 06:18:41.220043 [UID:1687][26205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2022-03-02 06:18:41.286501 [UID:1687][26205] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
-2022-03-02 06:18:41.386834 [UID:1687][26205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2022-03-02 06:18:41.487132 [UID:1687][26205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
-2022-03-02 06:18:41.505287 [UID:1687][26205] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+  File "/home/bafghmah/mahd/passenger_wsgi.py", line 1, in <module>
+    from mahd.wsgi import application 
+  File "/home/bafghmah/mahd/mahd/wsgi.py", line 8, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
