@@ -1,0 +1,563 @@
+<html lang="en">
+{% load static %}
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}" />
+    <!-- MeanMenu CSS -->
+    <link rel="stylesheet" href="{% static 'css/meanmenu.css' %}" />
+    <!-- Fontawsome CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/fontawesome-all.min.css' %}" />
+    <!-- Flaticon CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/flaticon.css' %}" />
+    <!-- Magnific CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/magnific-popup.css' %}" />
+    <!-- Animate CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/animate.css' %}" />
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="{% static 'css/responsive.css' %}" />
+    <!-- RTL CSS -->
+    <link rel="stylesheet" href="{% static 'css/rtl.css' %}" />
+    <title>لیست دانش آموزان</title>
+    <style>
+        .emp-profile {
+            padding: 3%;
+            margin-top: 3%;
+            margin-bottom: 3%;
+            border-radius: 0.5rem;
+            background: #fff;
+        }
+        
+        .profile-img {
+            text-align: center;
+        }
+        
+        .profile-img img {
+            width: 70%;
+            height: 100%;
+        }
+        
+        .profile-img .file {
+            position: relative;
+            overflow: hidden;
+            margin-top: -20%;
+            width: 70%;
+            border: none;
+            border-radius: 0;
+            font-size: 15px;
+            background: #212529b8;
+        }
+        
+        .profile-img .file input {
+            position: absolute;
+            opacity: 0;
+            right: 0;
+            top: 0;
+        }
+        
+        .profile-head h5 {
+            color: #333;
+        }
+        
+        .profile-head h6 {
+            color: #0062cc;
+        }
+        
+        .profile-edit-btn {
+            border: none;
+            border-radius: 1.5rem;
+            width: 70%;
+            padding: 2%;
+            font-weight: 600;
+            color: #6c757d;
+            cursor: pointer;
+        }
+        
+        .proile-rating {
+            font-size: 12px;
+            color: #818182;
+            margin-top: 5%;
+        }
+        
+        .proile-rating span {
+            color: #495057;
+            font-size: 15px;
+            font-weight: 600;
+        }
+        
+        .profile-head .nav-tabs {
+            margin-bottom: 5%;
+        }
+        
+        .profile-head .nav-tabs .nav-link {
+            font-weight: 600;
+            border: none;
+        }
+        
+        .profile-head .nav-tabs .nav-link.active {
+            border: none;
+            border-bottom: 2px solid #0062cc;
+        }
+        
+        .profile-work {
+            padding: 14%;
+            margin-top: -15%;
+        }
+        
+        .profile-work p {
+            font-size: 12px;
+            color: #818182;
+            font-weight: 600;
+            margin-top: 10%;
+        }
+        
+        .profile-work a {
+            text-decoration: none;
+            color: #495057;
+            font-weight: 600;
+            font-size: 14px;
+        }
+        
+        .profile-work ul {
+            list-style: none;
+        }
+        
+        .profile-tab label {
+            font-weight: 600;
+        }
+        
+        .profile-tab p {
+            font-weight: 600;
+            color: #0062cc;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="object" id="object_one"></div>
+                <div class="object" id="object_two"></div>
+                <div class="object" id="object_three"></div>
+                <div class="object" id="object_four"></div>
+            </div>
+        </div>
+    </div>
+    <!-- End Preloader -->
+
+    <!-- Start Navbar Area -->
+    <div class="navbar-area">
+        <div class="mobile-nav">
+            <a href="index.html" class="logo">
+                <img src="{% static 'images/logo1.png' %}" alt="logo" />
+            </a>
+        </div>
+
+        <div class="main-nav">
+            <div class="container">
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <a class="navbar-brand" href="{% url 'web:home' %}">
+                        <img src="{% static 'images/logo1.png' %}" alt="logo" />
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- End Navbar Area -->
+
+    <!-- Start Page Title Area -->
+    <div class="banner-area admission">
+        <div class="d-table">
+            <div class="d-table-cell">
+                <div class="container">
+                    <div class="page-title-content">
+                        <h2> پروفایل</h2>
+                        <ul>
+                            <li>
+                                <a href="{% url 'web:home' %}"> صفحه اصلی </a>
+                                <i class="flaticon-left-arrow"></i>
+                                <p class="active"> پروفایل</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Page Title Area -->
+
+    <div class="container emp-profile">
+        <form method="post">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="profile-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52y5aInsxSm31CvHOFHWujqUx_wWTS9iM6s7BAm21oEN_RiGoog" alt="" />
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="profile-head">
+                        <h5>
+                            {{userprofile.name}}
+                        </h5>
+                        <h6>
+                            {{userprofile.nin}}
+                        </h6>
+                        <p class="proile-rating">شماره تماس : <span>{{userprofile.home_phone }}</span></p>
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">مشخصات کودک</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">سایر مشخصات</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- <div class="col-md-2">
+                    <input type="submit" class="profile-edit-btn" name="btnAddMore" value="Edit Profile" />
+                </div> -->
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                </div>
+                <div class="col-md-8">
+                    <div class="tab-content profile-tab" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>نام ونام خانوادگی</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>{{userprofile.name}}</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>نام پدر</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>{{userprofile.father}}</p>
+                                </div>
+                            </div>
+                                     <div class="row">
+                                <div class="col-md-6">
+                                    <label>نام مادر</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>{{userprofile.mother_name}}</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>کد ملی</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>{{userprofile.nin}}</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>تاریخ تولد</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>{{userprofile.birthday}}</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>محل تولد</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>{{userprofile.birth_place}}</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>محل صدور</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>{{userprofile.create_card_place}}</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label> سریال شناسنامه</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>{{userprofile.Serialcard}}</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label> سری شناسنامه</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>{{userprofile.Sericard}}</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>  شماره تماس پدر</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>{{userprofile.father_phone}}</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>  شماره تماس مادر</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>{{userprofile.mother_phone}}</p>
+                                </div>
+                            </div>
+                              <div class="row">
+                                <div class="col-md-6">
+                                    <label>  شماره  تلگرام</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>{{userprofile.telegram_phone}}</p>
+                                </div>
+                            </div>
+                              <div class="row">
+                                <div class="col-md-6">
+                                    <label>  نام مهد</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>{{userprofile.e_place}}</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>استان</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>{{userprofile.province}}</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>شهر</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>{{userprofile.city}}</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>آدرس</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>{{userprofile.address}}</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>کدپستی</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>{{userprofile.home_code}}</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>تحصیلات پدر</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>{{userprofile.father_education}}</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>تاریخ تولد پدر</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>{{userprofile.father_birth}}</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>کد ملی پدر</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>{{userprofile.father_nin}}</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label> سریال شناسنامه پدر</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>{{userprofile.Fatherserial}}</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label> سری شناسنامه پدر</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>{{userprofile.Fatherseri}}</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>شغل پدر </label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>{{userprofile.father_work}}</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>تحصیلات مادر</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>{{userprofile.mother_education}}</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>تاریخ تولد مادر</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>{{userprofile.mother_birth}}</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>کد ملی مادر</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>{{userprofile.mother_nin}}</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label> سریال شناسنامه مادر</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>{{userprofile.Motherserial}}</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label> سری شناسنامه مادر</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>{{userprofile.Motherseri}}</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label> شغل مادر</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>{{userprofile.mother_work}}</p>
+                                </div>
+                            </div>
+                              <div class="row">
+                                <div class="col-md-6">
+                                    <label> دست غالب کودک</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>{{userprofile.Hand}}</p>
+                                </div>
+                            </div>
+                              <div class="row">
+                                <div class="col-md-6">
+                                    <label>والدین کودک متارکه نموده</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>{{userprofile.Talagh}}</p>
+                                </div>
+                            </div>
+                              <div class="row">
+                                <div class="col-md-6">
+                                    <label>سابقه ی ایثار گری</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>{{userprofile.Shahid}}</p>
+                                </div>
+                            </div>
+                              <div class="row">
+                                <div class="col-md-6">
+                                    <label>بیمه تکمیلی کودک</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>{{userprofile.Bimeh}}</p>
+                                </div>
+                            </div>
+                              <div class="row">
+                                <div class="col-md-6">
+                                    <label> والدبن کودک فرهنگی می باشند</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>{{userprofile.Farhangi}}</p>
+                                </div>
+                            </div>
+                             <div class="row">
+                                <div class="col-md-6">
+                                    <label> تعداد فرزندان خانواده</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>{{userprofile.Children}}</p>
+                                </div>
+                            </div>
+                             <div class="row">
+                                <div class="col-md-6">
+                                    <label> کودک فرزند چندم می باشد</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>{{userprofile.Child}}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+    <!-- Scroll top -->
+    <a href="#" class="scroll-top wow bounceInDown">
+        <i class="fas fa-angle-double-up"></i>
+    </a>
+
+    <!-- Js -->
+    <script src="{%static 'js/jquery.min.js' %}"></script>
+    <!-- Boostrap Js  -->
+    <script src="{%static 'js/popper.min.js' %}"></script>
+    <script src="{%static 'js/bootstrap.min.js' %}"></script>
+    <!-- MeanMenu JS -->
+    <script src="{%static 'js/jquery.meanmenu.js' %}"></script>
+    <script src="{%static 'js/jquery.magnific-popup.min.js' %}"></script>
+    <!-- Owl carasol Js -->
+    <script src="{%static 'js/owl.carousel.min.js' %}"></script>
+    <!-- Wow js -->
+    <script src="{%static 'js/wow.min.js' %}"></script>
+    <!-- Isotope Js -->
+    <script src="{%static 'js/isotope.pkgd.min.js' %}"></script>
+    <!-- Form Validator Js  -->
+    <script src="{%static 'js/form-validator.min.js' %}"></script>
+    <!-- Contact Form Js -->
+    <script src="{%static 'js/contact-form-script.js' %}"></script>
+    <!-- Main js -->
+    <script src="{%static 'js/main.js' %}"></script>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+from mahd.wsgi import application 
