@@ -1,0 +1,25 @@
+{% extends 'base.html'%}
+
+{% block content %}
+<!-- Start Page Title Area -->
+<div class="banner-area admission">
+    <div class="d-table">
+        <div class="d-table-cell">
+            <div class="container">
+                <div class="page-title-content"> 
+                    <h2>پرداخت</h2>
+                    <ul>
+                        <li>
+                            <a href="{% url 'web:home' %}"> صفحه اصلی </a>
+                            <i class="flaticon-left-arrow"></i>
+                            <p class="active">پرداخت</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Page Title Area -->
+<a href="{% url 'web:signup' %}" class="box-btn">پرداخت وجه </a>
+{% endblock %}
