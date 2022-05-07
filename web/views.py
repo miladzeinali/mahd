@@ -3,6 +3,7 @@ from .models import Userprofile
 from django.contrib import messages
 from .SmsHandler import SmsHandler
 from django.views.decorators.csrf import csrf_exempt
+from zarinpal.views import
 
 sms = SmsHandler()
 
@@ -77,13 +78,35 @@ def SignUp(request):
                                        mother_nin=mother_nin, mother_education=mother_education,
                                        mother_phone=mother_phone, mother_work=mother_work, mother_birth=mother_birth,
                                        telegram_phone=telegram_phone, e_place=eplace)
-            messages.success(request, {'اطلاعات شما با موفقیت ثبت شد .'})
-            token = sms.get_token()
-            sms.send_register_report(name, telegram_phone, token)
-            return render(request, 'success.html')
-    else:
-        pass
-    return render(request, 'admission.html')
+            # messages.success(request, {'اطلاعات شما با موفقیت ثبت شد .'})
+            # token = sms.get_token()
+            # sms.send_register_report(name, telegram_phone, token)
+            r = {
+                'status': 'success',
+                'total_price_to_pay': '1000000',
+                'nin': nin
+            }
+            resp = []
+            resp.insert(0, r)
+            request.session['r'] = r
+            return render(request, 'payment.html')
+        else:
+            pass
+        return render(request, 'admission.html')
+
+def Payment(request):
+        return redirect('zarinpal:request')
+
+def Webpaycontrol(request):
+        try:
+            nin = request.session['r']['nin']
+            user = Userprofile.objects.get(nin=nin)
+            user.pay = True
+            user.save()
+            return render(request, 'sucsess.html')
+        except:
+            messages.success(request, 'erorr in webpaycontrol', 'erorr')
+            return render(request, 'addmission.html')
 
 
 def Userprofiles(request):
