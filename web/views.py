@@ -39,7 +39,6 @@ def SignUp(request):
         farhangi = request.POST['farhangi']
         children = request.POST['children']
         child = request.POST['child']
-
         father_name_lastname = request.POST['fathername']
         father_father_name = request.POST['fatherfathername']
         father_nin = request.POST['fathernin']
