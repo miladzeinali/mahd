@@ -31,7 +31,6 @@ def SignUp(request):
         address = request.POST['address']
         city = request.POST['city']
         province = request.POST['province']
-
         hand = request.POST['hand']
         talagh = request.POST['talagh']
         bimeh = request.POST['bimeh']
@@ -42,7 +41,6 @@ def SignUp(request):
         father_name_lastname = request.POST['fathername']
         father_father_name = request.POST['fatherfathername']
         father_nin = request.POST['fathernin']
-        # father_serial_card = request.POST['fatherserial']
         father_education = request.POST['fathereducation']
         father_phone = request.POST['fatherphone']
         father_work = request.POST['fatherwork']
@@ -50,7 +48,6 @@ def SignUp(request):
         mother_name = request.POST['mothername']
         mother_father_name = request.POST['motherfathername']
         mother_nin = request.POST['mothernin']
-        # mother_serial_card = request.POST['motherserial']
         mother_education = request.POST['mothereducation']
         mother_phone = request.POST['motherphone']
         mother_work = request.POST['motherwork']
@@ -76,24 +73,22 @@ def SignUp(request):
                                        mother_nin=mother_nin, mother_education=mother_education,
                                        mother_phone=mother_phone, mother_work=mother_work, mother_birth=mother_birth,
                                        telegram_phone=telegram_phone, e_place=eplace)
-            # messages.success(request, {'اطلاعات شما با موفقیت ثبت شد .'})
-            # token = sms.get_token()
-            # sms.send_register_report(name, telegram_phone, token)
             r = {
                 'status': 'success',
-                'total_price_to_pay': '1000000',
+                'total_price_to_pay': '100000',
                 'nin': nin
             }
             resp = []
             resp.insert(0, r)
             request.session['r'] = r
+            print(request.session['r'])
             return render(request, 'payment.html')
-        else:
-            pass
-        return render(request, 'admission.html')
+    else:
+        pass
+    return render(request, 'admission.html')
 
 def Payment(request):
-        return redirect('zarinpal:request')
+    return redirect('zarinpal:request')
 
 def Webpaycontrol(request):
         try:
@@ -101,7 +96,7 @@ def Webpaycontrol(request):
             user = Userprofile.objects.get(nin=nin)
             user.pay = True
             user.save()
-            return render(request, 'sucsess.html')
+            return render(request,'succsess.html')
         except:
             messages.success(request, 'erorr in webpaycontrol', 'erorr')
             return render(request, 'addmission.html')
