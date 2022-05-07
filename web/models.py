@@ -50,6 +50,8 @@ class Userprofile(models.Model):
     Farhangi = models.CharField(max_length=35,null=True,blank=True)
     Children = models.CharField(max_length=35,null=True,blank=True)
     Child = models.CharField(max_length=35,null=True,blank=True)
+    pay = models.BooleanField(default=False,null=True,blank=True)
+
 
     
 

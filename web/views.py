@@ -3,7 +3,6 @@ from .models import Userprofile
 from django.contrib import messages
 from .SmsHandler import SmsHandler
 from django.views.decorators.csrf import csrf_exempt
-from zarinpal.views import
 
 sms = SmsHandler()
 
