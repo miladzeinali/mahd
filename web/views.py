@@ -96,10 +96,10 @@ def Webpaycontrol(request):
             user = Userprofile.objects.get(nin=nin)
             user.pay = True
             user.save()
-            return render(request,'succsess.html')
+            return render(request,'success.html')
         except:
             messages.success(request, 'erorr in webpaycontrol', 'erorr')
-            return render(request, 'addmission.html')
+            return render(request, 'admission.html')
 
 
 def Userprofiles(request):

@@ -12,7 +12,7 @@ client = Client('https://www.zarinpal.com/pg/services/WebGate/wsdl')
 description = "توضیحات مربوط به تراکنش را در این قسمت وارد کنید"  # Required
 email = 'email@example.com'  # Optional
 mobile = '09123456789'  # Optional
-CallbackURL = 'http://127.0.0.1:8000/zarinpal/verify/' # Important: need to edit for realy server.
+CallbackURL = 'http://bafghmahd.ir/zarinpal/verify/' # Important: need to edit for realy server.
 
 
 
