@@ -1,0 +1,42 @@
+{% extends 'base.html'%}
+
+{% block content %}
+<!-- Start Page Title Area -->
+<div class="banner-area admission">
+    <div class="d-table">
+        <div class="d-table-cell">
+            <div class="container">
+                <div class="page-title-content"> 
+                    <h2>پرداخت</h2>
+                    <ul>
+                        <li>
+                            <a href="{% url 'web:payment' %}"> صفحه اصلی </a>
+                            <i class="flaticon-left-arrow"></i>
+                            <p class="active">پرداخت</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Page Title Area -->
+<div class="card" 
+style="
+    margin: auto;
+      margin-top: auto;
+      margin-bottom: auto;
+    margin-top: 7%;
+    margin-bottom: 16%;">
+    <div class="card-header">
+        <h4>پرداخت وجه</h4>
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">پرداخت وجه پیش ثبت نام</h5>
+    <p class="card-text"> جهت تکمیل ثبت نام کودک مبلغ 100,000 تومان پرداخت نمایید </p>
+                    <a href="{% url 'web:payment' %}" class="btn btn-primary">پرداخت  </a>
+
+
+    </div>
+</div>
+{% endblock %}
