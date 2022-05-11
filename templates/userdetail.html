@@ -506,6 +506,25 @@
                                     <p>{{userprofile.Child}}</p>
                                 </div>
                             </div>
+                             {% if userprofile.pay %}
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label> وضعیت پرداخت شهریه</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>پرداخت شده</p>
+                                </div>
+                            </div>
+                            {% else %}
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label> وضعیت پرداخت شهریه</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>پرداخت نشده</p>
+                                </div>
+                            </div>
+                            {% endif %}
                         </div>
                     </div>
                 </div>
