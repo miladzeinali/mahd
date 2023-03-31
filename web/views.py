@@ -3,8 +3,7 @@ from .models import Userprofile
 from django.contrib import messages
 from .SmsHandler import SmsHandler
 from django.views.decorators.csrf import csrf_exempt
-
-sms = SmsHandler()
+from kavenegar import *
 
 
 def home(request):
@@ -14,11 +13,17 @@ def home(request):
 @csrf_exempt
 def SignUp(request):
     if request.method == 'POST' and request.POST['name']:
+        nin = request.POST['nin']
+        try:
+            Userprofile.objects.get(nin=nin)
+            messages.error(request, {'کد ملی تکراری است.'})
+            return render(request, 'admission.html')
+        except:
+            pass
         name = request.POST['name']
         father = request.POST['father_name']
         birthday = request.POST['birthday']
         birth_place = request.POST['birthdayplace']
-        nin = request.POST['nin']
         create_card_place = request.POST['createcardplace']
         sericard = request.POST['sericard']
         serialcard = request.POST['serialcard']
@@ -76,12 +81,12 @@ def SignUp(request):
             r = {
                 'status': 'success',
                 'total_price_to_pay': '100000',
-                'nin': nin
+                'nin': nin,
+                'father_phone':father_phone
             }
             resp = []
             resp.insert(0, r)
             request.session['r'] = r
-            print(request.session['r'])
             return render(request, 'payment.html')
     else:
         pass
@@ -93,22 +98,34 @@ def Payment(request):
 def Webpaycontrol(request):
         try:
             nin = request.session['r']['nin']
+            # father_phone = request.session['r']['father_phone']
             user = Userprofile.objects.get(nin=nin)
             user.pay = True
             user.save()
+            # messages.success(request, {'اطلاعات شما با موفقیت ثبت شد .'})
+            # api = KavenegarAPI('7335726878564E2F506C4A3857457773624F70634C466A7A586F456D345A78544F7845446B3263635832773D') 
+            # params = { 'sender' : '100047778', 'receptor': f'{father_phone}', 'message' :' ثبت نام شما با موفقیت انجام شد !' } 
+            # response = api.sms_send( params) 
             return render(request,'success.html')
         except:
-            messages.success(request, 'erorr in webpaycontrol', 'erorr')
-            return render(request, 'admission.html')
+            print('milad')
 
-
+def UserDelete(request):
+    try:
+        nin = request.session['r']['nin']
+        user = Userprofile.objects.get(nin=nin)
+        user.delete()
+        # return render(request, 'index.html')
+    except:
+        print('error in user delete!')
+        # return render(request, 'index.html')
+        
 def Userprofiles(request):
-    # try:
-        print('milad')
+    try:
         userprofiles = Userprofile.objects.all().order_by('-id')
         return render(request, 'userprofile.html', {'userprofiles': userprofiles})
-    # except:
-        # return render(request, 'index.html')
+    except:
+        return render(request, 'index.html')
 
 
 def UserDetail(request, id):
@@ -117,3 +134,17 @@ def UserDetail(request, id):
         return render(request, 'userdetail.html', {'userprofile': userprofile})
     except:
         return render(request, 'index.html')
+
+def Userconfirm(request,id):
+    try:
+        userprofile = Userprofile.objects.get(id=id)
+        if userprofile.pay:
+            userprofile.pay = False
+        else:
+            userprofile.pay = True
+        userprofile.save()
+        return redirect('web:userprofile')
+    except:
+        messages.error(request,'در فرایند تغییرات اشکالی پیش امده است!','error')
+        return redirect('web:userprofile')
+

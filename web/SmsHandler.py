@@ -2,6 +2,7 @@ import requests
 import json
 
 from .HelperDate import HelperDate
+from kavenegar import *
 # from web.models.models import UserProfile
 
 
@@ -9,7 +10,7 @@ class SmsHandler:
 
     def __init__(self):
         self.secret_key = '###abbas%^987'
-        self.api_key = '91ac6e7a6a16964dfe9f8cbd'
+        self.api_key = '7335726878564E2F506C4A3857457773624F70634C466A7A586F456D345A78544F7845446B3263635832773D'
         self.line_number = '30004747472909'
 
 

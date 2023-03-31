@@ -102,10 +102,12 @@
                     <th scope="col">#</th>
                     <th scope="col">نام و نام خانوادگی</th>
                      <th scope="col">نام پدر</th>
-                
+                    <th scope="col">شماره تماس</th>
+                     <th scope="col">وضعیت پرداخت</th>
                      <th scope="col">#</th>
-                    
-                   
+                     <th scope="col">تغییر وضعیت پرداخت</th>
+
+
 
                 </tr>
             </thead>
@@ -115,17 +117,22 @@
                     <th scope="row">{{user.id}}</th>
                     <td>{{user.name}}</td>
                     <td>{{user.father}}</td>
-                    
+                    <td>{{user.father_phone}}</td>
+                    <td>{{user.pay}}</td>
+
                     <td><a href="{% url 'web:detail' user.id%}">مشخصات</a></td>
-
-
+                    {% if not user.pay %}
+                    <td><a href="{% url 'web:confirmpay' user.id %}"  class="btn btn-primary">تایید پرداخت</a></td>
+                    {% else %}
+                    <td><a class="btn btn-success">پرداخت شده </a></td>
+                    {%endif%}
                 </tr>
                 {%endfor%}
             </tbody>
         </table>
         {% endif %}
     </div>
-    
+
   <!-- Footer Area -->
   <div class="footer-area">
     <div class="container">

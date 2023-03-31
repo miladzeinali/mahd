@@ -4,7 +4,7 @@ from django.http import HttpResponse
 from django.shortcuts import redirect
 from zeep import Client
 from django.contrib import messages
-from web.views import Webpaycontrol
+from web.views import Webpaycontrol,UserDelete
 
 MERCHANT = 'bdae3de6-ef15-49e6-903b-34cc18e656cb'
 client = Client('https://www.zarinpal.com/pg/services/WebGate/wsdl')
@@ -32,11 +32,12 @@ def verify(request):
             Webpaycontrol(request)
             return redirect('web:home')
         elif result.Status==101:
-            return HttpResponse('Transaction submitted : ' + str(result.Status))
+            Webpaycontrol(request)
+            return redirect('web:home')
         else:
-            messages.error(request,'فرآیند پرداخت موفقیت آمیز نبود !','error')
+            UserDelete(request)
             return redirect('web:home')
     else:
-        messages.error(request,'تراکنش توسط شما کنسل شد‌ !','error')
+        UserDelete(request)
         return redirect('web:home')
 
