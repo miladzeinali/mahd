@@ -1,7 +1,6 @@
 from django.urls import path
-from .views import Userregister,UserForgetPass,\
-    UserDetail,Userprofiles,UserVerify,home,Webpaycontrol,Payment,Dashbord,UserLogout,Info,about,contact,Usersms
-
+from .views import UserDetail,Userprofiles,UserVerify,home,Webpaycontrol,Payment,Dashbord,UserLogout,Info,about,contact,Usersms
+# Userregister,UserForgetPass,\
 app_name = 'account'
 urlpatterns = [
     path('', home, name='home'),
