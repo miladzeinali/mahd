@@ -1,6 +1,6 @@
 from django.urls import path
-from .views import UserDetail,Userprofiles,UserVerify,home,Webpaycontrol,Payment,Dashbord,UserLogout,Info,about,contact,Usersms
-# Userregister,UserForgetPass,\
+from .views import UserDetail,Userprofiles,UserVerify,home,Webpaycontrol,Payment,Dashbord,UserLogout,Info,about,contact,Usersms,Yearcategory,searchbar
+
 app_name = 'account'
 urlpatterns = [
     path('', home, name='home'),
@@ -16,8 +16,11 @@ urlpatterns = [
     path('logout/',UserLogout,name='logout'),
     # path('login/',UserLogin,name='login'),
 
-    path('userprofiles/', Userprofiles, name='userprofiles'),
+    path('yearcategory/', Yearcategory , name='year'),
+    path('userprofiles/<str:year>/', Userprofiles, name='userprofiles'),
     path('userdetail/<int:id>/', UserDetail, name='detail'),
     path('about/', about, name='about'),
     path('contact/', contact, name='contact'),
+    
+    path('search/',searchbar,name='search')
 ]

@@ -95,7 +95,11 @@
 {#پیش دبستانی یگانه                                        </h2>#}
                                     </div>
                                     <div class="slider-btn bnt1 text-center">
+                                        {% if user.is_authenticated %}
+                                        <a href="{% url 'account:dashbord' %}" class="box-btn">داشبورد</a>
+                                        {% else %}
                                         <a href="{% url 'web:signup' %}" class="box-btn">پذیرش کن</a>
+                                        {% endif %}
 {#                                        <a href="special-class.html" class="border-btn">مشاهده دوره ها</a>#}
                                     </div>
                                 </div>
@@ -119,7 +123,11 @@
 {#مهدکودک دردانه                                        </h2>#}
                                     </div>
                                     <div class="slider-btn bnt2">
+                                        {% if user.is_authenticated %}
+                                        <a href="{% url 'account:dashbord' %}" class="box-btn">داشبورد</a>
+                                        {% else %}
                                         <a href="{% url 'web:signup' %}" class="box-btn">پذیرش کن</a>
+                                        {% endif %}
 {#                                        <a href="special-class.html" class="border-btn">مشاهده دوره ها</a>#}
                                     </div>
                                 </div>

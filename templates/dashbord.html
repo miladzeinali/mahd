@@ -89,6 +89,7 @@
     </div>
     <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
         <form class="needs-validation mb-3" action="{% url 'account:info' %}" method="post">
+            {% csrf_token %}
             <div id="child" style="border-bottom: 1px solid #920ec9;" class="mb-4">
             <h4 style="margin-bottom: 16px;" >مشخصات کودک</h4>
             <div class="form-row">
@@ -479,7 +480,8 @@
             <div class="card-body">
                 <h5 class="card-title">شهریه مهد کودک <div class="spinner-grow text-primary"></div>
                 </h5>
-                <p class="card-text">مبلغ پیش ثبت نام مهد کودک شکوفه 100,000 تومان می باشد</p>
+                <p class="card-text">مبلغ پیش ثبت نام مهد کودک شکوفه 130,000 تومان می باشد</p>
+                <p class="card-text">به مبلغ شهریه ۹ درصد مالیات اضافه خواهد شد</p>
                 <a href="{% url 'account:payment' %}" class="btn btn-primary">پرداخت </a>
             </div>
             {% endif %}

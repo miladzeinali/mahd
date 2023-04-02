@@ -52,9 +52,6 @@
 
     <!-- Start Navbar Area -->
     <div class="navbar-area">
-       <div class="mobile-nav">
-            
-       </div>
 
        <div class="main-nav">
            <div class="container">
@@ -95,13 +92,11 @@
         margin-right: auto;
         margin-top: 100px;
     ">
-        {% if userprofiles %}
         <table class="table table-hover">
             <thead>
                 <tr>
                     <th scope="col">#</th>
-                    <th scope="col">نام و نام خانوادگی</th>
-                     <th scope="col">نام پدر</th>
+                    <th scope="col">سال ثبت نام</th>
                 
                      <th scope="col">#</th>
                     
@@ -110,20 +105,18 @@
                 </tr>
             </thead>
             <tbody>
-                {% for user in userprofiles %}
+                {% for year in years %}
                 <tr>
-                    <th scope="row">{{user.id}}</th>
-                    <td>{{user.name}}</td>
-                    <td>{{user.father}}</td>
+                    <th scope="row">{{year.id}}</th>
+                    <td>{{year.year}}</td>
                     
-                    <td><a href="{% url 'account:detail' user.id%}">مشخصات</a></td>
+                    <td><a href="{% url 'account:userprofiles' year.year %}">مشخصات</a></td>
 
 
                 </tr>
                 {%endfor%}
             </tbody>
         </table>
-        {% endif %}
     </div>
     
        <!-- Footer Area -->

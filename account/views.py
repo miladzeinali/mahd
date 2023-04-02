@@ -3,11 +3,13 @@ from django.contrib.auth import authenticate,login,logout
 from django.contrib.auth.models import User
 import re
 from django.contrib import messages
-from .models import Userprofile,ValidationCode
+from account.models import *
 from random import randint
 import requests
 from django.views.decorators.csrf import csrf_exempt
 import datetime
+from web.models import Userprofile 
+import requests
 
 def home(request):
     return render(request, 'index.html')
@@ -22,38 +24,27 @@ def Usersms(request):
                 return render(request,'register.html')
             mobile = form['mobile']
             try:
-                Userprofile.objects.get(father_phone=mobile)
-                ValidOqbject = ValidationCode.objects.get(mobile=mobile)
-                code = ValidOqbject.validation_code
-                # send sms to user
-                params = (('receptor', f'{mobile}'), ('token', f'{code}'), ('template', 'codebafghmahd'))
-                requests.post('https://api.kavenegar.com/v1/7335726878564E2F506C4A3857457773624F70634C466A7A586F456D345A78544F7845446B3263635832773D/verify/lookup.json',
-                                      params = params)
-                r = {
-                            'mobile': mobile,
-                        }
-                resp = []
-                resp.insert(0, r)
-                request.session['r'] = r
-                return render(request,'userverify.html')
-            except:
+                Userprofile.objects.filter(father_phone=mobile).last()
                 try:
+                    ValidOqbject = ValidationCode.objects.get(mobile=mobile)
+                except:
                     code = randint(100000,999999)
-                    ValidationCode.objects.create(mobile=mobile,validation_code=code)
-                    # send sms to user
-                    params = (('receptor', f'{mobile}'), ('token', f'{code}'), ('template', 'codebafghmahd'))
-                    requests.post('https://api.kavenegar.com/v1/7335726878564E2F506C4A3857457773624F70634C466A7A586F456D345A78544F7845446B3263635832773D/verify/lookup.json',
-                                      params = params)
-                    r = {
+                    ValidOqbject = ValidationCode.objects.create(mobile=mobile,validation_code=code)
+            except:
+                code = randint(100000,999999)
+                ValidOqbject = ValidationCode.objects.create(mobile=mobile,validation_code=code)        
+            code = ValidOqbject.validation_code
+            # send sms to user
+            params = (('receptor', f'{mobile}'), ('token', f'{code}'), ('template', 'codebafghmahd'))
+            requests.post('https://api.kavenegar.com/v1/7335726878564E2F506C4A3857457773624F70634C466A7A586F456D345A78544F7845446B3263635832773D/verify/lookup.json',
+                                  params = params)
+            r = {
                             'mobile': mobile,
                         }
-                    resp = []
-                    resp.insert(0, r)
-                    request.session['r'] = r
-                    return render(request,'userverify.html')
-                except:
-                    messages.error(request,'در فرآیند ثبت نام مشکلی پیش آمده است، با پشتیبانی سایت تماس بگیرید','error')
-                    return render(request,'register.html')
+            resp = []
+            resp.insert(0, r)
+            request.session['r'] = r
+            return render(request,'userverify.html')
         else:
             return redirect('account:register')
     else:
@@ -66,27 +57,37 @@ def UserVerify(request):
             if mobile:
                 try:
                     ValidationCode.objects.get(mobile=mobile,validation_code=code)
+                    r = requests.get('https://api.keybit.ir/time/')
+                    resp = r.json()
+                    year = resp['date']['year']['number']['en']
                     try:
-                        user = User.objects.get(username=mobile,password=code)
-                        if user:
-                            login(request,user)
-                            return redirect('account:dashbord')
-                        else:
-                            messages.error(request,'رمز را به صورت صحیح وارد نمایید!','error')
-                            return render(request,'register.html')
+                        user = User.objects.get(username=mobile)
+                        profile = Userprofile.objects.filter(father_phone=mobile)
+                        v = len(profile)
+                        print(profile)
+                        print(v)
+                        if v != 0:
+                            oldyear = profile.last().yearadded
+                            if oldyear != year:
+                                Userprofile.objects.create(father_phone=mobile,yearadded=year,user=user)
                     except:
                         user = User.objects.create_user(username=mobile,password=code)
-                        Userprofile.objects.create(father_phone=mobile,user = user)
-                        user.save()
+                        try:
+                            profile = Userprofile.objects.filter(father_phone=mobile).last()
+                            userold = profile.user
+                            if user != userold:
+                                profile.user = user
+                                profile.save()
+                            Userprofile.objects.create(father_phone=mobile,user=user,yearadded=year) 
+                        except:
+                            Userprofile.objects.create(father_phone=mobile,yearadded=year,user=user)
+                    if user:
                         login(request,user)
-                        messages.success(request,'به سامانه بهاران خوش آمدید!','success')
                         return redirect('account:dashbord')
-                except:
-                    if form['next']:
-                        next = form['next']
-                        messages.error(request,'رمز را به صورت صحیح وارد نمایید!','error')
-                        return redirect(next)
                     else:
+                        messages.error(request,'رمز را به صورت صحیح وارد نمایید!','error')
+                        return render(request,'register.html')
+                except:
                         messages.error(request,'رمز را به صورت صحیح وارد نمایید!','error')
                         return render(request,'register.html')
             else:
@@ -142,7 +143,7 @@ def Info(request):
         eplace = request.POST['eplace']
         if name:
                 user = request.user
-                userProfile = Userprofile.objects.get(user=user)
+                userProfile = Userprofile.objects.filter(user=user).last()
                 userProfile.name = name
                 userProfile.last_name = last_name
                 userProfile.father = father
@@ -204,15 +205,12 @@ def Payment(request):
 def Webpaycontrol(request):
         try:
             user = request.user
-            userProfile = Userprofile.objects.get(user=user)
+            r = requests.get('https://api.keybit.ir/time/')
+            resp = r.json()
+            year = resp['date']['year']['number']['en']
+            userProfile = Userprofile.objects.get(user=user,yearadded=year)
             userProfile.pay = True
             userProfile.save()
-            name = userProfile.name
-            mobile = userProfile.father_phone
-            params = (('receptor', f'{mobile}'), ('token', f'{name}'), ('template', 'Pay'))
-            requests.post(
-                'https://api.kavenegar.com/v1/7335726878564E2F506C4A3857457773624F70634C466A7A586F456D345A78544F7845446B3263635832773D/verify/lookup.json',
-                params=params)
             messages.success(request, 'پرداخت شما با موفقیت ثبت شد .','success')
             return redirect('account:dashbord')
         except:
@@ -223,7 +221,7 @@ def Dashbord(request):
     try:
         user =request.user
         if user.is_authenticated:
-            userProfile = Userprofile.objects.get(user=user.id)
+            userProfile = Userprofile.objects.filter(user=user.id).last()
             return render(request,'dashbord.html',{'profile':userProfile})
         else:
             messages.error(request, 'برای دسترسی ابتدا وارد شوید!', 'error')
@@ -233,14 +231,16 @@ def Dashbord(request):
         return render(request,'dashbord.html')
         return redirect('account:home')
 
+def Yearcategory(request):
+    years = Year.objects.all()
+    return render(request,'yearcategory.html',{'years':years})
 
-def Userprofiles(request):
+def Userprofiles(request,year):
     try:
-        userprofiles = Userprofile.objects.all().order_by('-id')
+        userprofiles = Userprofile.objects.filter(yearadded=year).order_by('-id')
         return render(request, 'userprofile.html', {'userprofiles': userprofiles})
     except:
         return render(request, 'index.html')
-
 
 def UserDetail(request, id):
     try:
@@ -290,6 +290,14 @@ def about(request):
 
 def contact(request):
     return render(request,'contact.html')
+
+def searchbar(request):
+    print(request.POST)
+    search = request.POST['search']
+    print(search)
+    if search:
+        userprofiles = Userprofile.objects.filter(name__contains=search)
+    return render(request, 'userprofile.html', {'userprofiles' : userprofiles})
 
 
 

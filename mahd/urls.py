@@ -22,7 +22,7 @@ import zarinpal
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('web/',include('web.urls')),
-    path('',include('account.urls')),
+    path('account/',include('account.urls')),
     path('zarinpal/',include('zarinpal.urls'))
 
 ]+static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)

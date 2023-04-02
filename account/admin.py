@@ -1,14 +1,14 @@
 from django.contrib import admin
 from .models import *
 
-class Userprofileadmin(admin.ModelAdmin):
-    list_display = ('id','name','home_phone','father')
-    search_fields = ('name','nin','home_phone')
 
 class ValidationsCodeadmin(admin.ModelAdmin):
     list_display = ('id','mobile')
     search_fields = ('name',)
 
+class Yearadmin(admin.ModelAdmin):
+    list_display = ('year',)
+    search_fields = ('year',)
 
-admin.site.register(Userprofile,Userprofileadmin)
 admin.site.register(ValidationCode,ValidationsCodeadmin)
+admin.site.register(Year,Yearadmin)
